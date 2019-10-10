@@ -68,6 +68,20 @@ Describe the different roles on the team and the responsibilities associated wit
 List each team member and:
  * A description of their role(s) and responsibilities including the components they'll work on and non-software related work
  * 3 technical strengths and weaknesses each (e.g. languages, frameworks, libraries, development methodologies, etc.)
+ 
+ - Zuhab Wasim
+ 
+ - Saim Ibrahim
+ 
+ - Alex Quach
+ 
+ - Brian Quach
+ 
+ - Rooney Jingyuan Gao
+ 
+ - Jimmy Tan
+ 
+ - Frederick Yao
 
 #### Team Rules
 
