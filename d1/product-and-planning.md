@@ -93,7 +93,18 @@ List each team member and:
 		-
 		-
  - Alex Quach
- 
+ 	- Weaknesses
+		- lack of experience with web development (JS, Node, React)
+		- lack of experience with frameworks
+		- lack of experience in AGILE/SCRUM development environments
+	- Strengths:
+		- experience in AI with Microsoft Azure and Google Firebase
+		- strong background in Python and databases
+		- strong background in full-stack mobile development and object oriented programming (Android, iOS)
+	- Roles:
+		-
+		-
+		-
  - Brian Quach
  
  - Rooney Jingyuan Gao
