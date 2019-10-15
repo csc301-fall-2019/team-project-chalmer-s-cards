@@ -30,7 +30,9 @@ Specifcally, what we will be building is the backend api which will provide JSON
  * Be specific (e.g. a 'a third-year university student studying Computer Science' and not 'a student')
  * Feel free (but not obligated) to use personas.         
    You can create your personas as part of this Markdown file, or add a link to an external site (for example, [Xtensio](https://xtensio.com/user-persona/)).
-
+   
+Our target users staff at homeless shelters. They would use this product in order to streamline the process of keeping track of the number of people at shelters. As well, the data from the Chalmer's vision would easily show staff which shelters have space when the current shelter is at capacity.
+   
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
 
  * Short (1 - 2 min' read max)
@@ -41,6 +43,8 @@ Specifcally, what we will be building is the backend api which will provide JSON
     * Provide users with more accurate and/or informative data (what kind of data? Why is it useful to them?)
     * Does this application exist in another form? If so, how does your differ and provide value to the users?
     * How does this align with your partner's organization's values/mission/mandate?
+    
+Currently, shelter staff either count the occupants at shelter by hand 
 
 #### Q4: How will you build it?
 
