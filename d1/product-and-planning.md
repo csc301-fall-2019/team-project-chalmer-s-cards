@@ -1,4 +1,4 @@
-# YOUR PRODUCT/TEAM NAME
+# Chalmer's Vision
 > _Note:_ This document is meant to evolve throughout the planning phase of your project.    
  > That is, it makes sense for you commit regularly to this file while working on the project (especially edits/additions/deletions to the _Highlights_ section).
  > Most importantly, it is a reflection of all the planning you work you've done in the first iteration. 
@@ -18,7 +18,11 @@
  * Focus on *what* your product does, and avoid discussing *how* you're going to implement it.      
    For example: This is not the time or the place to talk about which programming language and/or framework you are planning to use.
  * **Feel free (and very much encouraged) to include useful diagrams, mock-ups and/or links**.
+ 
+What we are building is a computer vision program to count the number of people inside of homeless shelters in Toronto. The problem we are trying to solve is the issue of quickly knowing which homeless shelters have space in order refer clients. The most common use case would be the following: 
+ * Client A walks into Shelter 1, but Shelter 1 is at capacity and cannot accept more people. It is very cold outside and Client A needs a safe and warm place to stay. The staff at Shelter 1 check the occuapancy at other shelters around the city and provide Client A directoins to the nearest shelter with space for additional people
 
+Specifcally, what we will be building is the backend api which will provide JSON data on shelter occupancy. As well, there will be simple frontend web application in order to showcase the various models we use and their effectiveness. Our api wil simply provide one piece of informtation: how many people are in the shelter.
 
 #### Q2: Who are your target users?
 
@@ -72,7 +76,18 @@ List each team member and:
  - Zuhab Wasim
  
  - Saim Ibrahim
- 
+ 	- Weaknesses
+		- lack of experience with AI/ML
+		- 
+		-
+	- Strengths:
+		- experience in Firebase
+		- strong background in Python
+		- experience in Javascript/Web Development
+	- Roles:
+		-
+		-
+		-
  - Alex Quach
  
  - Brian Quach
