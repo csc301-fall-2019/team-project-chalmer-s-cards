@@ -32,6 +32,8 @@ Specifcally, what we will be building is the backend api which will provide JSON
    You can create your personas as part of this Markdown file, or add a link to an external site (for example, [Xtensio](https://xtensio.com/user-persona/)).
    
 Our target users staff at homeless shelters. They would use this product in order to streamline the process of keeping track of the number of people at shelters. As well, the data from the Chalmer's vision would easily show staff which shelters have space when the current shelter is at capacity.
+
+Another target user is the City of Toronto. They the city can use the information generated from the Chalmer's Vision to see shelter usage and where more resources should be allocated. For example, if a certain shelter is constantly ant full capacity, the city can expand shelters around the area to serve the demand.
    
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
 
