@@ -61,7 +61,11 @@ Currently, shelter staff either count the occupants at shelter by hand
  * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
  * If you have a partner, these must be reviewed and accepted by them
  * The user stories should be written in Github and each one must have clear acceptance criteria
-
+1) Shelter type 1
+2) Shelter type 2
+3) Shelter type 3
+4) City of Toronto
+5) Volunteers at the shelters (food volunteers, etc)
 ----
 
 ## Process Details
@@ -78,20 +82,29 @@ List each team member and:
  * 3 technical strengths and weaknesses each (e.g. languages, frameworks, libraries, development methodologies, etc.)
  
  - Zuhab Wasim
- 
+ 	- Weaknesses
+		- Little experience in Javascript, React, Node frameworks
+		- Spends alot of time understanding code before producing any code
+		- Unfamiliar in working with Raspberry Pi
+	- Strengths
+		- Experience in using Microsoft Azure AI
+		- Knowledge in Google Firebase
+		- Experience in software to hardware programming
+	- Roles:
+		- Designer for AI model (3rd group)
+		- Meeting minutes taker (the scribe)
  - Saim Ibrahim
  	- Weaknesses
 		- lack of experience with AI/ML
-		- 
-		-
+		- limitied exposure to Agile methodologies
+		- lack of experience with SQL databases
 	- Strengths:
 		- experience in Firebase
 		- strong background in Python
 		- experience in Javascript/Web Development
 	- Roles:
-		-
-		-
-		-
+		- Will be the front-end developer, developing a website to showcase all the computer vision models developed by other colleagues.
+		- Will contribute to CV model 1
  - Alex Quach
  	- Weaknesses
 		- lack of experience with web development (JS, Node, React)
@@ -102,13 +115,33 @@ List each team member and:
 		- strong background in Python and databases
 		- strong background in full-stack mobile development and object oriented programming (Android, iOS)
 	- Roles:
-		-
-		-
-		-
+		- SCRUM Master / AGILE Coach
+		- Will develop and design Computer Vision model 3 used to identify people who comes in and out with partner Zuhab Wasim (back-end)
+		- Partner and TA Correspondent
  - Brian Quach
- 
- - Rooney Jingyuan Gao
- 
+    - Weaknesses
+		- no experience with AI/ML
+		- no experience with firebase
+		- no experience with Rasberry Pi
+	- Strengths:
+		- experience with python
+		- experience with full-stack development
+		- experience with databases
+	- Roles:
+		- Will design and develop computer vision model 1 with Rooney and Saim
+ - Jingyuan Rooney Gao
+   - Weaknesses
+      - Lack of experience with Firebase
+      - Lack of experience with Rasberry Pi or RTSP stream
+      - Lack of experience in Front-End 
+   - Strengths:
+      - Good foundation in Python
+      - Understand and learning ML concepts 
+      - Experience with databases
+   
+   - Roles: 
+      - Will design and develop one of the computer vision model with Brian Quach and Saim (back-end dev)
+
  - Jimmy Tan
  	- Weaknesses:
 		- Lack of experience in a larger team
@@ -119,35 +152,95 @@ List each team member and:
 		- Strong background in Python
 		- Experience with microsoft azure custom vision
 	- Role: 
-		- 
+		- Will design and develop computer vision model 2 with Frederick Yao, this consists of researching on the topic of detecting humans moving "in" and moving "out" and then developing the model, in a method which is different from model 1 and 2. 
  
  - Frederick Yao
+    - Weaknesses:
+		- Lack of experience in a larger team
+		- Lack of extensive experience with AI/ML
+		- Lack of experience in a SCRUM environment.
+	- Strengths: 
+		- Experience with firebase, which the project is currently using.
+		- Background in Python
+		- Experience with microsoft azure custom vision
+	- Role: 
+		- Will design and develop computer vision model 2 with Jimmy Tang, this consists of researching on the topic of detecting humans moving "in" and moving "out" and then developing the model, in a method which is different from model 1 and 2. 
 
 #### Team Rules
 
 Describe your team's working culture.
 
 Communications:
- * What is the expected frequency? What methods/channels are appropriate? 
- * If you have a partner project, what is your process (in detail) for communicating with your partner?
+* As a team, we will meet on Thursdays after 3:00 PM before the meeting with Zach at school (Bahen).  After this meeting as a team, we will meet our project partner.
+ * We will be meeting with our project partner weekly on Thursdays at 5:30pm at a pre-arranged location for the week that will be decided over slack or email with the project partner.
+     * Meetings alternate every week with one week in person and one week online through Slack/Discord
+     * For the online meeting, the application will be decided on Slack beforehand.
+ * Our process for communicating with our partner involves talking over slack during the week and during our weekly meetings on Thursday.  On thursday, we will talk about our progress, our next steps and what requirements we need from him (Update our partner on the progress).  During the week, we will message him on Slack if anything is needed.
+ 
  
 Meetings:
- * How are people held accountable for attending meetings, completing action items? Is there a moderator or process?
+ * The SCRUM Master / AGILE coach will keep track of each members attendance and missed meeting catch up, acting as the moderator of the meetings.
+ * If a member cannot attend, they will have to provide a reason why they could not attend, and the steps they'll take to get up to speed on what they missed in the meeting. The partner(s) of the absentee will then be responsible for filling in the individual on what happened in the meeting.
+ * Partners will send meeting delegates, attending by proxy if they are absent.
+ * If a person misses 2 meetings without exceptional circumstances and/or misses 2 action items deadlines (milestones), further escalation will be taken (explained below in conflict resolution).
  
 Conflict Resolution:
- * List at least three team scenarios/conflicts you discussed in lecture and how you decided you will resolve them. Indecisions? Non-responsive team members? Any other scenarios you can think of?
+ * Scenarios:
+ * 1) Refusing to communicate
+     * In this scenario, the group will attempt to confront the person(s) in person and try to resolve why there is a lack of communication in a respectful manner.  If we cannot resolve it in person, we will go to the course adminstration for further action.
+ * 2) Missed milestone
+     * In the scenario, we will call a snap group meeting and try to figure out why its going on, and to determine why the milestone was missed, if they need any help, and if the milestone is within the persons' scope.  If we cannot resolve this, we can decide to tackle the missed milestone as a group, or we will go to the course adminstration for further action.
+ * 3) Difference in progress between groups
+     * In this scenario, the groups that are ahead can decide to help the groups behind.  If it is an issue, we can redistribute the work and assign people to help out the groups that are behind.
+ * 4) One member is being too controlling
+     * In this scenario, the other members of the group should respectully discuss the dynamic with the person.  If the behaviour is consistent, the problem will be escalated to course adminstration.
+ * 5) Two group members have personal issues between each other
+     * In this scenario, the rest of the group / SCRUM master should act as mediator and try to find the resolution.  If a resolution cannot be reached, the scrum master will act as the arbitrator.  If there is a conflict of interest, course adminstration will be brought in.
+ * 6) All groups experience signifcant setbacks or show a lack of progess
+     * For this case, a discussion should be initiated as soon as possible to discuss a change in scope relating the work. We will look to see if we can merge groups and requirements to ensure something is delivered such as creating fewer models.  If this cannot be resolved, we will either discuss it with adminstration or change the MVP of the project.
 
 
 #### Events
 
 Describe meetings (and other events) you are planning to have:
- * When and where? Recurring or ad hoc? In-person or online?
- * What's the purpose of each meeting?
- * Other events could be coding sessions, code reviews, quick weekly sync meeting online, etc.
+Events: 
+ * 1) Weekly Meetings after 3PM before partner meeting:
+     * When: 3:00PM - 5:00 PM
+     * Where: Bahen 2nd floor or 3rd floor
+     * Recurring: Every thursday of every week
+     * In person or online: In person
+     * Purpose: Code reviews, progress updates, SCRUM / AGILE, resolve blockers, reallocation of resources, planning on what to discuss with partner, SPRINT planning, weekly sync
+* 2) Weekly Meetings with Project Partner at 5:30 PM:
+    * When: 5:30PM - 7:00 PM (Approximately)
+     * Where: Will be decided on Slack during the week beforehand
+     * Recurring: Every thursday of every week
+     * In person or online: In person one week, online one week, rotates
+     * Purpose: Progress updates, requirement updates, future plans, issue resolving, additional assistance if needed
+* 3) Team socials (Dinners, etc)
+    * Occcurs throughout the week depending on the members
+     
 
 #### Partner Meetings
 You must have at least 2 meetings with your project partner - an initial planning meeting and a document review meeting. Describe the meetings here:
+
+*Meeting 1*
 * When and where?
+    * Was on Thursday October 10th, 2019, and at the Bampot Tea House on Bathurst and Harbord. The meeting was approximately 2 hours in length. 
+* What did you discuss during the meeting (**note you must have meeting minutes**)?
+    * The schedule for the meeting was as follows:
+    * Introductions with everyone and insight into the Chalmer's history and goals.
+    * Discussed possible meeting schedules and structure of each meeting that aligns with the partner's schedule.
+    * Asked questions related to what the project will be about and what the project specifies. Also asked questions to properly cast the project in terms of action goals and deliverables as dicussed in the course.
+    * Discussed the tech stack of the project pros and cons of possible implementations and general plans of actions.
+* What were the outcomes of each meeting?
+    * Finalized our method of communication with the partner and group. That being mainly slack and email.
+    * Scheduled our next meeting with our partner (will occur on Thursday afternoon). Also finalized our schedule with meeting the partner on sunday or thursday weekly meetings, alternating in online and inperson.
+    * Learned the responsibility of our group and what we are solving in the general scope of the problem. 
+    * Learned the specific requirements of the project and the tech stack that is needed for it.
+
+*Meeting 2*
+* When and where?
+    * Occured on Thursday October 17th, 2019 and happened at _______.
 * What did you discuss during the meeting (**note you must have meeting minutes**)?
 * What were the outcomes of each meeting?
 
@@ -155,12 +248,9 @@ You must have at least 2 meetings with your project partner - an initial plannin
 #### Artifacts
 
 List/describe the artifacts you will produce in order to organize your team.       
-
- * Artifacts can be To-Do lists, Task boards, schedule(s), etc.
- * We want to understand:
-   * How do you keep track of what needs to get done?
-   * How do you prioritize tasks?
-   * How do tasks get assigned to team members?
+* Zenhub will be used to keep track of what needs to get done, and will be used to assign tasks to team members.  Zenhub is a free AGILE project management application directly on github.
+* We will prioritize tasks by when they are due / need to be displayed.
+* We will create a schedule using google docs or something similar to manage when all project deadlines should be due.
 
 ----
 ### Highlights
