@@ -54,6 +54,14 @@ Currently, shelter staff either count the occupants at shelter by hand
  * Describe the architecture - what are the high level components or patterns you will use? Diagrams are useful here. 
  * Will you be using third party applications or APIs? If so, what are they?
  * What is your testing strategy?
+ 
+Our technology stack will be to use Wisecam V2 cameras connected to Rasberry Pis using Debian or Raspbian hardware for our input. Information from these cameras will use a model to detect faces and all code is centralized using Python. Our results are then stored in JSON using a Firebase database. Our final result will include a web application most likely using React to display the accuracy of each model.
+
+Our product will be deployed as a proof-of-concept as a web application and as software governing cameras given to shelters to utilize.
+
+The APIs we could possibly use would be different AI model trainers such as AWS, Microsft Azure, and any models online that relate to our project.
+
+Our group will be provided with the hardware (cameras and Raspberry Pi) to directly test our software as we build it and look to use our own input (such as our own videos) or shelter footage with necessary permission to test as well.
 
 #### Q5: What are the user stories that make up the MVP?
 
