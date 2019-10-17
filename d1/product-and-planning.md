@@ -34,17 +34,11 @@ Specifcally, what we will be building is the backend api which will provide JSON
 Our target users staff at homeless shelters. They would use this product in order to streamline the process of keeping track of the number of people at shelters. As well, the data from the Chalmer's vision would easily show staff which shelters have space when the current shelter is at capacity.
    
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
+Currently, shelter staff need to count the occupants coming in and out at shelter by hand in order to determine capacity. This is a problem because it requires a human to constantly be present. In addition there is room for human error, which our product will (ideally) solve. 
 
- * Short (1 - 2 min' read max)
- * We want you to "connect the dots" for us - Why does your product (as described in your answer to Q1) fits the needs of your users (as described in your answer to Q2)?
- * Explain the benefits of your product explicitly & clearly. For example:
-    * Save users time (how much?)
-    * Allow users to discover new information (which information? And, why couldn't they discover it before?)
-    * Provide users with more accurate and/or informative data (what kind of data? Why is it useful to them?)
-    * Does this application exist in another form? If so, how does your differ and provide value to the users?
-    * How does this align with your partner's organization's values/mission/mandate?
-    
-Currently, shelter staff either count the occupants at shelter by hand 
+To solve these issues, our product will save hundreds of hours for volunteers as it removes the role of "counter". This type of automation application isn't currently being employed in shelters as well, so we see this project fulfilling this void. 
+
+Finally, this product alligns with our partners mission of making the lives of volunteers and the homeless easier, providing more accurate data, with less overhead of a human tasked to count occupancy which leads to more time being put to directly supporting the homeless.
 
 #### Q4: How will you build it?
 
@@ -74,7 +68,7 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
 - Acceptance Criteria:
     - have an accurate count of the amount of people in various homeless shelters in Toronto
 #### 2. Convent Shelters/Transitional Homes
-- story
+- As a covenant shelter/transitional home staff, a lot of time must go into actualy maintaining the home and helping the large number of homeless set up their living space. With this app I want to quickly refer to any clients coming in and out to other shelters so no one will have to be kicked out or left unattended. This is so I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep.
 - Acceptance Criteria
     - filler
     - filler
