@@ -69,9 +69,10 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
  * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
  * If you have a partner, these must be reviewed and accepted by them
  * The user stories should be written in Github and each one must have clear acceptance criteria
-1) Shelter type 1
-2) Shelter type 2
-3) Shelter type 3
+1) Shelter type 1: Full Service Shelters 
+2) Shelter type 2: Convent Shelters/Transitional Homes
+3) Shelter type 3: Respite Centers
+As a respite center staff, the infastructure we have here is not up to standard and my job sometimes gets too difficult to do everything I need to. With this app I want to quickly refer to any clients coming in and out to other shelters so no one will have to be kicked out or left unattended. This is so I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep night.
 4) City of Toronto
 5) Volunteers at the shelters (food volunteers, etc)
 ----
