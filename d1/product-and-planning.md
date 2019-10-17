@@ -69,18 +69,29 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
  * You must follow proper user story format (as taught in lecture) ```As a <user of the app>, I want to <do something in the app> in order to <accomplish some goal>```
  * If you have a partner, these must be reviewed and accepted by them
  * The user stories should be written in Github and each one must have clear acceptance criteria
-1. Shelter type 1: Full Service Shelters 
+#### 1. Full Service Shelters 
 - As staff at the Full Service Shelters, we often get clients coming to our facilties looking for a place to stay, however we often at full capacity. I want to be able to use the Chalmer's Vision in order to quicly determine which shelters have space in order to refer the clients to those shelters.
 - Acceptance Criteria:
-	- have an accurate count of the amount of people in various homeless shelters in Toronto
-2. Shelter type 2: Convent Shelters/Transitional Homes
-3. Shelter type 3: Respite Centers
+    - have an accurate count of the amount of people in various homeless shelters in Toronto
+#### 2. Convent Shelters/Transitional Homes
+- story
+- Acceptance Criteria
+    - filler
+    - filler
+#### 3. Respite Centers
 - As a respite center staff, the infastructure we have here is not up to standard and my job sometimes gets too difficult to do everything I need to. With this app I want to quickly refer to any clients coming in and out to other shelters so no one will have to be kicked out or left unattended. This is so I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep night.
-4. City of Toronto
+- Acceptance Criteria
+    - filler
+    - filler
+#### 4. City of Toronto
 - As staff managing the various homeless shelters in Tornto, we want to be able to see occupancy rates at various shelters around the city in order to better allocate resources to where they are needed.
 - Acceptance Criteria:
 	- have an accurate count of occupancy of various shelters around the city at any given time
-5. Volunteers at the shelters (food volunteers, etc)
+#### 5. Volunteers at the shelters (food volunteers, etc)
+- story
+- Acceptance Criteria
+    - filler
+    - filler
 ----
 
 ## Process Details
