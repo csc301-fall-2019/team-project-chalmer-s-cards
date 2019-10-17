@@ -34,16 +34,6 @@ Specifcally, what we will be building is the backend api which will provide JSON
 Our target users staff at homeless shelters. They would use this product in order to streamline the process of keeping track of the number of people at shelters. As well, the data from the Chalmer's vision would easily show staff which shelters have space when the current shelter is at capacity.
    
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
-
- * Short (1 - 2 min' read max)
- * We want you to "connect the dots" for us - Why does your product (as described in your answer to Q1) fits the needs of your users (as described in your answer to Q2)?
- * Explain the benefits of your product explicitly & clearly. For example:
-    * Save users time (how much?)
-    * Allow users to discover new information (which information? And, why couldn't they discover it before?)
-    * Provide users with more accurate and/or informative data (what kind of data? Why is it useful to them?)
-    * Does this application exist in another form? If so, how does your differ and provide value to the users?
-    * How does this align with your partner's organization's values/mission/mandate?
-    
 Currently, shelter staff need to count the occupants coming in and out at shelter by hand in order to determine capacity. This is a problem because it requires a human to constantly be present. In addition there is room for human error, which our product will (ideally) solve. 
 
 To solve these issues, our product will save hundreds of hours for volunteers as it removes the role of "counter". This type of automation application isn't currently being employed in shelters as well, so we see this project fulfilling this void. 
@@ -58,7 +48,7 @@ Finally, this product alligns with our partners mission of making the lives of v
  * Describe the architecture - what are the high level components or patterns you will use? Diagrams are useful here. 
  * Will you be using third party applications or APIs? If so, what are they?
  * What is your testing strategy?
-
+ 
 Our technology stack will be to use Wisecam V2 cameras connected to Rasberry Pis using Debian or Raspbian hardware for our input. Information from these cameras will use a model to detect faces and all code is centralized using Python. Our results are then stored in JSON using a Firebase database. Our final result will include a web application most likely using React to display the accuracy of each model.
 
 Our product will be deployed as a proof-of-concept as a web application and as software governing cameras given to shelters to utilize.
@@ -80,24 +70,22 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
 #### 2. Respite center
 - As a respite centre home staff, a lot of time must go into actualy maintaining the home and helping the large number of homeless set up their living space. With this app I want to quickly refer to any clients coming in and out to other shelters so no one will have to be kicked out or left unattended. This is so I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep.
 - Acceptance Criteria:
-    - Number of people in the shelter t
-#### 3. Respite Centers
-- As a staff working at a transitional home, the infastructure we have here is not up to standard and my job sometimes gets too difficult to do everything I need to, often leaving me with no chance to keep track of the people coming in and all. With this app I want to have the camera and the software constantly monitoring the number of people and pushing data to the Firebase back-end so that the data can be updated across the userbase. This is so homeless people can be reffered to my shelter appropriately and I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep night.
+    - Number of people in the shelter to ensure a legal amount of people are in the building well below the firecode.
+#### 3. Out-of-the-cold Shelter
+- As a staff working at a out-of-the-cold shelter, the infastructure we have here is not up to standard and my job sometimes gets too difficult to do everything I need to, often leaving me with no chance to keep track of the people coming in and all. With this app I want to have the camera and the software constantly monitoring the number of people and pushing data to the Firebase back-end so that the data can be updated across the userbase. This is so social workers can stop referring homeless individuals to my shelter when it's full and I can ensure our capacity is within the firecode specifications, the shelter never gets too crowded, and everyone has a place to sleep night.
 - Acceptance Criteria:
     - Have a highly accurate count for current occupancy so that firecode is not violated.
     - Be able to know real time changes so that any change over the firecode can be quickly dealt with.
-
-quickly refer
 #### 4. City of Toronto
 - As staff managing the various homeless shelters in Tornto, we want to be able to see occupancy rates at various shelters around the city in order to better allocate resources to where they are needed.
 - Acceptance Criteria:
 	- have an accurate count of occupancy of various shelters around the city at any given time
+	- Have a counter of people for each shelter to make sure everyone is evenly distributed.
 #### 5. Volunteers at the shelters (food volunteers, etc)
 - As volunteers at homeless shelters, we want to be able to see where there are the most people so that we can help out the shelters that need the most staff.
 - Acceptance Criteria
     - we should be able to see the occupancy at various shelters in order to go the one with the most people
-
-----
+    - Also need the occupancy to see exactly how much food is needed for the shelter and how to divide it across everyone.
 
 ## Process Details
 
