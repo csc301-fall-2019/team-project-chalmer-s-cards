@@ -12,7 +12,7 @@ What we are building is a computer vision program to count the number of people 
 
  *Client A walks into Shelter 1, but Shelter 1 is at capacity and cannot accept more people. It is very cold outside and Client A needs a safe and warm place to stay. The staff at Shelter 1 check the occupancy at other shelters around the city using a map that utilizes count data and provide Client A directions to the nearest shelter with space for additional people*
 
-Specifically, what we will be building is the backend device which will provide JSON data on shelter occupancy. As well, there will be simple front-end web applications to showcase the various models we use and their effectiveness. Our device will simply provide one piece of information; how many people are in the shelter. This data will then be provided to other applications like a map that staff can use to see vacancies so they or an automated bot can direct clients to the nearest vacant shelter.
+Specifically, what we will be building is the backend model which will provide JSON data on shelter occupancy.  This model will be an artificial intelligence model that will be used to detect faces coming in and out of homeless shelters around the city.  Building the artifical intelligence models will be our main focus.  As well, there will be simple front-end web applications to showcase the various models we use and their effectiveness. Our model will simply provide one piece of information; how many people are in the shelter. This data will then be provided to other applications like a map that staff can use to see vacancies so they or an automated bot that can direct clients to the nearest vacant shelter.
 
 #### Q2: Who are your target users?
 
@@ -20,7 +20,7 @@ Specifically, what we will be building is the backend device which will provide 
 Our target users are staff at homeless shelters. They would use this product to streamline the process of keeping track of the number of people at other shelters as well as their own. Shelter staff can then use the data from Chalmer's vision to find which shelter has space when theirs is at full capacity. They can also notify others of their vacancies if other shelters are full.
    
 #### Q3: Why would your users choose your product? What are they using today to solve their problem/need?
-Currently, shelter staff needs to count the occupants coming in and out of their shelter by hand in order to determine capacity. This step of the process is mandatory and under their protocol. The problem is for staff to quickly convey their capacity to other shelters. This at the moment would be the slow process of manual phone calls that take time and labor even if the staff have time to do so in their busy jobs.
+Currently, shelter staff need to count the occupants coming in and out of their shelter by hand in order to determine capacity. This step of the process is mandatory and under their protocol. The problem is for staff to quickly convey their capacity to other shelters. This at the moment would be the slow process of manual phone calls that take time and labor even if the staff have time to do so in their busy jobs.
 
 Our product will help with this by keeping track of the count but sending this information out directly to other shelters in real-time. This product will save hundreds of hours for staff as it removes the role of "communicator". This type of automation application is not currently employed in shelters that are not cumbersome, so we see this project fulfilling this void. 
  
@@ -41,15 +41,16 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
 #### Q5: What are the user stories that make up the MVP?
 
 #### 1. Full Service Shelters
-- As staff at the Full-Service Shelters, we often get clients coming to our facilities looking for a place to stay, however, we are often at full capacity or sometimes completely empty. I want to use the Chalmer's map to see if others have space when we are full or let other shelters know that we have space when we have vacancies. We also want to notify clients where the nearest shelter that has space is.
+- As staff at the full-service shelter, I want to receive real time data keeping track of how many people are currently in my shelter and other shelters around the city so that I know when and where to refer people to other shelters if fire occupancy for my shelter has been reached.
 - Acceptance Criteria:
     - I want to have an accurate count of the number of people in various homeless shelters in Toronto.
+    - I want to have a simple display of how many people are in my shelter.
 #### 2. Respite center
-- As a respite center home staff, a lot of time must go into actually maintaining the home and helping a large number of homeless get settled in available space. With this app, I want to quickly refer to any clients coming in and out to other shelters so no one will have to be kicked out or left unattended. This is so I can ensure our capacity is within the fire code specifications, the shelter never gets too crowded, and everyone has a place to sleep.
+- As a respite center home staff, I want to quickly refer any clients coming in and out of the shelter to other shelters that have available beds so I can ensure everyone has a place to sleep while also ensuring that fire occupancy for the shelter doesn't get out of hand.
 - Acceptance Criteria:
     - I want the number of people in the shelter to ensure a legal amount of people are in the building well below the fire code.
 #### 3. Out-of-the-cold Shelter
-- As staff working at an out-of-the-cold shelter, my job sometimes gets busy and often leaves me with little chance to effectively track and convey the people coming in and out of my shelter. With this device, I want to have the ability to monitor the number of people coming in and out and sending the information out to other shelters. This is so I and others can not refer clients to my shelter when it is full and I can ensure our capacity is within the fire code specifications, the shelter never gets too crowded, and everyone has a place to sleep at night.
+- As a out-of-the-cold shelter staff, I want to have the ability to monitor the number of people coming in and out so I can send the information out to other shelters to ensure other shelters don't refer people to an already full shelter.
 - Acceptance Criteria:
     - I want to have a highly accurate count for current occupancy so that the fire code is not violated.
     - I want to be able to know real-time changes so that any change over the fire code can be quickly dealt with.
