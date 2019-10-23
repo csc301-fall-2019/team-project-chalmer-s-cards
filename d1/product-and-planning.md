@@ -12,7 +12,7 @@ What we are building is a computer vision program to count the number of people 
 
  *Client A walks into Shelter 1, but Shelter 1 is at capacity and cannot accept more people. It is very cold outside and Client A needs a safe and warm place to stay. The staff at Shelter 1 check the occupancy at other shelters around the city using a map that utilizes count data and provide Client A directions to the nearest shelter with space for additional people*
 
-Specifically, what we will be building is the backend model which will provide JSON data on shelter occupancy.  This model will be an artificial intelligence model that will be used to detect faces coming in and out of homeless shelters around the city.  Building the artifical intelligence models will be our main focus.  As well, there will be simple front-end web applications to showcase the various models we use and their effectiveness. Our model will simply provide one piece of information; how many people are in the shelter. This data will then be provided to other applications like a map that staff can use to see vacancies so they or an automated bot that can direct clients to the nearest vacant shelter.
+Specifically, what we will be building is the backend model which will provide JSON data on shelter occupancy.  This model will be an artificial intelligence computer vision model that will be used to detect faces coming in and out of homeless shelters around the city and provide a count of people in each shelter.  Building the artifical intelligence models will be our main focus.  As well, there will be simple front-end web applications to showcase the various models we use and their effectiveness. Our model will simply provide one piece of information; how many people are in the shelter. This data will then be provided to other applications like a map that staff can use to see vacancies so they or an automated bot that can direct clients to the nearest vacant shelter.
 
 #### Q2: Who are your target users?
 
@@ -43,17 +43,19 @@ Our group will be provided with the hardware (cameras and Raspberry Pi) to direc
 #### 1. Full Service Shelters
 - As staff at the full-service shelter, I want to receive real time data keeping track of how many people are currently in my shelter and other shelters around the city so that I know when and where to refer people to other shelters if fire occupancy for my shelter has been reached.
 - Acceptance Criteria:
-    - I want to have an accurate count of the number of people in various homeless shelters in Toronto.
+    - I want to have an accurate count of the number of people in various homeless shelters in Toronto to know which have space.
     - I want to have a simple display of how many people are in my shelter.
 #### 2. Respite center
 - As a respite center home staff, I want to quickly refer any clients coming in and out of the shelter to other shelters that have available beds so I can ensure everyone has a place to sleep while also ensuring that fire occupancy for the shelter doesn't get out of hand.
 - Acceptance Criteria:
     - I want the number of people in the shelter to ensure a legal amount of people are in the building well below the fire code.
+    - I want the number of people in the shelter so I know when I need to refer clients to other shelters.
 #### 3. Out-of-the-cold Shelter
 - As a out-of-the-cold shelter staff, I want to have the ability to monitor the number of people coming in and out so I can send the information out to other shelters to ensure other shelters don't refer people to an already full shelter.
 - Acceptance Criteria:
     - I want to have a highly accurate count for current occupancy so that the fire code is not violated.
     - I want to be able to know real-time changes so that any change over the fire code can be quickly dealt with.
+    - I want to be able to send information in real-time to other shelters.
 #### 4. City of Toronto
 - As staff managing the various homeless shelters in Toronto, we want to be able to see occupancy rates at various shelters around the city in order to better allocate resources to where they are needed.
 - Acceptance Criteria:
