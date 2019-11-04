@@ -25,11 +25,11 @@ _Reminder:_ The 0-4 marking scale means:
 
 
 ### Process
-+ Conflict Resolution: Provided more than 3 scenarios
+- Conflict Resolution: Provided more than 3 scenarios
 - Events: How about other events such as code reviews, etc.
 - Partner Meetings: Try to take meeting notes during your partner meetings and provide a link here
 - Artifacts: Provide a link to your Zenhub board & how are your assigning tasks to members?
-+ Highlights: Very detailed!
+- Highlights: Very detailed!
 
 ### Overall Quality
 - Didn't remove instruction at the beginning
