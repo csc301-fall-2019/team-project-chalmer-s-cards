@@ -4,8 +4,8 @@
 
 | Component   | 0    |  1   |  2   |  3   |  4   |
 | ----------- | ---- | ---- | ---- | ---- | ---- |
-| `Product (50%)` | X |   |   | X |   |
-| `Process (30%)` | X  |   |   | X |   |
+| `Product (50%)` |  |   |   | X |   |
+| `Process (30%)` |   |   |   | X |   |
 | `Overall Quality (20%)` |  |   | | X  |   |
 
 
@@ -20,12 +20,17 @@ _Reminder:_ The 0-4 marking scale means:
 ### Feedback
 
 #### Product
-- Lorem ipsum
+- Q4: Your deployment plan is not detailed enough, outline a more specific deployment plan for your app
+- Q5: Some of your user stories are very similar/duplicates of each other 
 
 
 ### Process
-- Lorem ipsum
-
++ Conflict Resolution: Provided more than 3 scenarios
+- Events: How about other events such as code reviews, etc.
+- Partner Meetings: Try to take meeting notes during your partner meetings and provide a link here
+- Artifacts: Provide a link to your Zenhub board & how are your assigning tasks to members?
++ Highlights: Very detailed!
 
 ### Overall Quality
-- Lorem ipsum
+- Didn't remove instruction at the beginning
+- Some typos
