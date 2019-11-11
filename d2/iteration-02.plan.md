@@ -96,8 +96,6 @@
     - Experience with Microsoft Azure custom vision
 - Roles
     - Designer for Computer Vision model 2 used to identify the number of people coming in and out with Jimmy Tan (back-end)
-
-----
 ### Team Rules
 #### Communications
 * As a team, we will meet on Thursdays after 3:00 PM before the meeting with Zach at school (Bahen).  After this meeting as a team, we will meet our project partner.
@@ -105,13 +103,13 @@
      * Meetings alternate every week with one week in person and one week online through Slack/Discord
      * For the online meeting, the application will be decided on Slack beforehand.
  * Our process for communicating with our partner involves talking over slack during the week and during our weekly meetings on Thursday.  On Thursday, we will talk about our progress, our next steps and what requirements we need from him (Update our partner on the progress).  During the week, we will message him on Slack if anything is needed.
-----
+
 #### Meetings
  * The SCRUM Master / AGILE coach will keep track of each member's attendance and missed meeting catch up, acting as the moderator of the meetings.
  * If a member cannot attend, they will have to provide a reason why they could not attend, and the steps they'll take to get up to speed on what they missed in the meeting. The partner(s) of the absentee will then be responsible for filling in the individual on what happened in the meeting.
  * Partners will send meeting delegates, attending by proxy if they are absent.
  * If a person misses 2 meetings without exceptional circumstances and/or misses 2 action items deadlines (milestones), further escalation will be taken (explained below in conflict resolution).
-----
+
 #### Conflict Resolution
 
 *Scenarios*
@@ -128,7 +126,6 @@
 6) All groups experience significant setbacks or show a lack of progress
      * For this case, a discussion should be initiated as soon as possible to discuss a change in scope relating to the work. We will look to see if we can merge groups and requirements to ensure something is delivered such as creating fewer models.  If this cannot be resolved, we will either discuss it with the administration or change the MVP of the project.
 
-----
 #### Events
 
   1) Weekly Meetings after 3 PM before partner meeting:
@@ -146,7 +143,7 @@
 3) Team socials (Dinners, etc)
     * Occurs throughout the week depending on the members
      
-----
+
 #### Partner Meetings
 You must have at least 2 meetings with your project partner - an initial planning meeting and a document review meeting. Describe the meetings here:
 
@@ -179,7 +176,7 @@ You must have at least 2 meetings with your project partner - an initial plannin
     * Discussed our plan of action after having doubts relating to particular issues with our original plan.
 
 
-----
+
 #### Artifacts
 
 * Zenhub will be used to keep track of what needs to get done and will be used to assign tasks to team members.  Zenhub is a free AGILE project management application directly on Github.
