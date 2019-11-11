@@ -141,7 +141,9 @@
      * In-person or online: In-person one week, online one week, rotates between the two
      * Purpose: Progress updates, requirement updates, future plans, issue-resolving, additional assistance if needed
 3) Team socials (Dinners, etc)
-    * Occurs throughout the week depending on the members
+    * Occurs throughout the week depending on the members  
+4) Code Reviews
+    * If possible, we will try to hold code reviews once every week or two weeks on Tuesdays after 6pm
      
 
 #### Partner Meetings
@@ -174,7 +176,8 @@ You must have at least 2 meetings with your project partner - an initial plannin
     * Obtained the hardware relating to the project and discussed how to use it.
     * Got input from our partner with his edits on what our questions portrayed wrongly and got his additions as well.
     * Discussed our plan of action after having doubts relating to particular issues with our original plan.
-
+Link:
+https://drive.google.com/drive/folders/1SNJWS-cT94wuTCe_5sZAeB9CKTrEKd0u?usp=sharing
 
 
 #### Artifacts
