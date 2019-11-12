@@ -196,12 +196,20 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 ## Product
 
 #### Goals and tasks
-
- * Describe your goals for this iteration and the tasks that you will have to complete in order to achieve these goals.
- * Order the items from most to least important.
- * Feel free (but not obligated) to specify some/all tasks as user stories.
+##### Goals -
+ * Goal 1: Get 2-3 computer vision models that detect human bodies and/or faces working in python
+ * Goal 2: Use the computer vision models to actually count human bodies and/or faces coming in and out working in python
+ * Goal 3: Display that counter in a simple console for demonstration of the different models working
+##### Tasks - 
+ * Task 1: Research 2-3 computer vision models in the individual teams specified above
+ * Task 2: Figure out how to use these computer vision models to only detect human bodies and/or human faces
+ * Task 3: Figure out how to use the detection from the computer vision models to create an accurate live counter of people coming in and out
+ * Task 4: Figure out how to make the model detect whether a person is coming in or a person is coming out of an area
+ * Task 5: Display this counter in a python console
 
 #### Artifacts
+
+1)
 
 List/describe the artifacts you will produce in order to present your project idea.
 
