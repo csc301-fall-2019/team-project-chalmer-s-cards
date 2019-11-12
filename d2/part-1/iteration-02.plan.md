@@ -188,14 +188,6 @@ https://drive.google.com/drive/folders/1SNJWS-cT94wuTCe_5sZAeB9CKTrEKd0u?usp=sha
 
 #### Deployment and Github Workflow
 
-Describe your Git / GitHub workflow. Essentially, we want to understand how your team members shares a codebase, avoid conflicts and deploys the application.
-
- * Be concise, yet precise. For example, "we use pull-requests" is not a precise statement since it leaves too many open questions - Pull-requests from where to where? Who reviews the pull-requests? Who is responsible for merging them? etc.
- * If applicable, specify any naming conventions or standards you decide to adopt.
- * Describe your overall deployment process from writing code to viewing a live applicatioon
- * What deployment tool(s) are you using and why
- * Don't forget to **explain why** you chose this workflow or particular aspects of it!
-
  Our team uses a Github repository that congregates all the work done for each group's tasks. The link for this repository is https://github.com/csc301-fall-2019/team-project-chalmer-s-cards  
 
  Our team also was provided a Github repository from our partner that contains basic started code for detecting faces through a video and camera feed.  The link for this repository is https://github.com/misterchalmers/chalmers-vision  
