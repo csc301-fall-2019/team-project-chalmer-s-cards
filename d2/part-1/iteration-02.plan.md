@@ -212,8 +212,8 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 
 #### Artifacts
 
-1) Demonstration videos (2-3 videos)
+1) Demonstration videos (2-3 videos):  
 These videos will be used to demonstrate our models' human detection working. These videos will be either filmed by us or will be found through online sources. The videos will consist of people walking towards or away from a camera at different angles. These videos will then be put into our models/python code so they can be used to demonstrate our models and python code properly counting people coming in and out. The purpose of the videos is to emulate people walking in and out of a doorway/homeless shelter as the models' purpose is to keep an accurate live count of people coming in and out of homeless shelters.
 
-2) Powerpoint presentation
+2) Powerpoint presentation:  
 The powerpoint will be used to explain how each model is used to detect the number of people coming in and out as each model will have different ways of counting and detecting people. Each model will have accompanying slides that use text and images of the code that will explain each model's process. The purpose of this powerpoint presentation is to emulate a potential final front end that will contain all of our different models and have a live human count of each model demonstrating each model we have worked with. The powerpoint presentation will also hopefully make it clear how each model works and how each model keeps a live count.
