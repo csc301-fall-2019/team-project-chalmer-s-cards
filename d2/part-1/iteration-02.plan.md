@@ -196,7 +196,9 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
  * What deployment tool(s) are you using and why
  * Don't forget to **explain why** you chose this workflow or particular aspects of it!
 
- Our team uses a Github repository that congregates all the work done for each group's tasks. The link for this repository is https://github.com/csc301-fall-2019/team-project-chalmer-s-cards
+ Our team uses a Github repository that congregates all the work done for each group's tasks. The link for this repository is https://github.com/csc301-fall-2019/team-project-chalmer-s-cards  
+
+ Our team also was provided a Github repository from our partner that contains basic started code for detecting faces through a video and camera feed.  The link for this repository is https://github.com/misterchalmers/chalmers-vision  
  
  Each group also works on their own branches of the original code. Member Alex Quach will be responsible for merging the branches as necessary.
  
