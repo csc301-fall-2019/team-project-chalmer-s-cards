@@ -208,6 +208,8 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
  3) What files were affected specifically.
  4) What is there to be done after this commit.
 
+ Our workflow described will be simple and short as their is little to do in relation to actual lines of code. The difficulty of this project will relate to researching and learning to implement the models we use. Moreover, since the models provide different detection (such as face and/or person detection), each group will need to implement in-and-out detection that could be very different from the others. Because of this, our work flow will vary and be independent from group to group.
+
  Our deployment process will start by ensuring that each group will have their model ready to be implemented. One model may be used to build a framework around it. This framework will use the detection the model provides and outputs the number of people going in and out of the input feed. We will then use this framework to build a local visualization of the input feed and the live counter for it.
 
   We feel the majority of the work for this deliverable comes from the functionality of our detection and thus most of our time will be used on the logic itself. Therefore, our deployment tool will consist of a local machine such as our laptops to show a working feed and counter. In the future (not for this deliverable) we might use Heroku to deploy web pages showing the functionality of each model using the same input feed and explaining the pros and cons of each.
