@@ -214,9 +214,9 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 
 #### Goals and tasks
 ##### Goals -
- * Goal 1: Get 2-3 computer vision models that detect human bodies and/or faces working in python
+ * Goal 1: Get 2-3 computer vision models that detect human bodies and/or faces working in Python
  * Goal 2: Use the computer vision models to count human bodies and/or faces coming in and out working in python
- * Goal 3: Display that counters in a simple console for demonstration of the different models working
+ * Goal 3: Display those counters in a simple console for demonstration of the different models working
 ##### Tasks - 
  * Task 1: Research 2-3 computer vision models in the individual teams specified above
  * Task 2: Figure out how to use these computer vision models to only detect human bodies and/or human faces
