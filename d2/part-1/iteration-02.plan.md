@@ -200,7 +200,7 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 
  Our team also was provided a Github repository from our partner that contains basic started code for detecting faces through a video and camera feed.  The link for this repository is https://github.com/misterchalmers/chalmers-vision  
  
- Each group also works on their own branches of the original code. Member Alex Quach will be responsible for merging the branches as necessary.
+ Each group also works on their own branches of the github repo. Member Alex Quach will be responsible for merging the branches as necessary.  The final work will hopefully be put on the master branch into folders.  To avoid conflict, each member will either push to their branch, or let other members know when they are pushing to the master on the group chat used to the work.
  
  All the commits that a user make will have the following format:
  1) Description of what changed in the code.
