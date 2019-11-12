@@ -201,8 +201,8 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 #### Goals and tasks
 ##### Goals -
  * Goal 1: Get 2-3 computer vision models that detect human bodies and/or faces working in python
- * Goal 2: Use the computer vision models to actually count human bodies and/or faces coming in and out working in python
- * Goal 3: Display that counter in a simple console for demonstration of the different models working
+ * Goal 2: Use the computer vision models to count human bodies and/or faces coming in and out working in python
+ * Goal 3: Display that counters in a simple console for demonstration of the different models working
 ##### Tasks - 
  * Task 1: Research 2-3 computer vision models in the individual teams specified above
  * Task 2: Figure out how to use these computer vision models to only detect human bodies and/or human faces
@@ -212,11 +212,8 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
 
 #### Artifacts
 
-1)
+1) Demonstration videos (2-3 videos)
+These videos will be used to demonstrate our models' human detection working. These videos will be either filmed by us or will be found through online sources. The videos will consist of people walking towards or away from a camera at different angles. These videos will then be put into our models/python code so they can be used to demonstrate our models and python code properly counting people coming in and out. The purpose of the videos is to emulate people walking in and out of a doorway/homeless shelter as the models' purpose is to keep an accurate live count of people coming in and out of homeless shelters.
 
-List/describe the artifacts you will produce in order to present your project idea.
-
- * Artifacts can be text, code, images, videos, interactive mock-ups and/or any other useful artifact you can think of.
- * Make sure to explain the purpose of each artifact (i.e. Why is it on your to-do list? Why is it useful for your team?)
- * Be concise, yet precise.         
-   For example: "Build the website" is not precise at all, but "Build a static home page and upload it somewhere, so that it is publicly accessible" is much clearer.
+2) Powerpoint presentation
+The powerpoint will be used to explain how each model is used to detect the number of people coming in and out as each model will have different ways of counting and detecting people. Each model will have accompanying slides that use text and images of the code that will explain each model's process. The purpose of this powerpoint presentation is to emulate a potential final front end that will contain all of our different models and have a live human count of each model demonstrating each model we have worked with. The powerpoint presentation will also hopefully make it clear how each model works and how each model keeps a live count.
