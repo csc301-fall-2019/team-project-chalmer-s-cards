@@ -208,7 +208,7 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
  3) What files were affected specifically.
  4) What is there to be done after this commit.
 
- Our workflow described will be simple and short as their is little to do in relation to actual lines of code. The difficulty of this project will relate to researching and learning to implement the models we use. Moreover, since the models provide different detection (such as face and/or person detection), each group will need to implement in-and-out detection that could be very different from the others. Because of this, our work flow will vary and be independent from group to group.
+ Our workflow described will be simple and short as their is little to do in relation to actual lines of code. The difficulty of this project will relate to researching and learning to implement the models we use. Moreover, since the models provide different detection (such as face and/or person detection), each group will need to implement in-and-out detection that could be very different from the others. Because of this, our work flow will vary and be independent from group to group. In relation to this, groups may change members or merge as some models may show to be sub-optimal for our purposes.
 
  Our deployment process will start by ensuring that each group will have their model ready to be implemented. One model may be used to build a framework around it. This framework will use the detection the model provides and outputs the number of people going in and out of the input feed. We will then use this framework to build a local visualization of the input feed and the live counter for it.
 
