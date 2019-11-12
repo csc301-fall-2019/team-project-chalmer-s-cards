@@ -176,7 +176,7 @@ You must have at least 2 meetings with your project partner - an initial plannin
     * Obtained the hardware relating to the project and discussed how to use it.
     * Got input from our partner with his edits on what our questions portrayed wrongly and got his additions as well.
     * Discussed our plan of action after having doubts relating to particular issues with our original plan.  
-#### Link for Team Meetings
+#### Link for the rest of the Team Meetings
 https://drive.google.com/drive/folders/1SNJWS-cT94wuTCe_5sZAeB9CKTrEKd0u?usp=sharing
 
 
