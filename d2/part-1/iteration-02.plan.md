@@ -176,7 +176,7 @@ You must have at least 2 meetings with your project partner - an initial plannin
     * Obtained the hardware relating to the project and discussed how to use it.
     * Got input from our partner with his edits on what our questions portrayed wrongly and got his additions as well.
     * Discussed our plan of action after having doubts relating to particular issues with our original plan.  
-##### Link:
+#### Link for Team Meetings
 https://drive.google.com/drive/folders/1SNJWS-cT94wuTCe_5sZAeB9CKTrEKd0u?usp=sharing
 
 
@@ -195,6 +195,20 @@ Describe your Git / GitHub workflow. Essentially, we want to understand how your
  * Describe your overall deployment process from writing code to viewing a live applicatioon
  * What deployment tool(s) are you using and why
  * Don't forget to **explain why** you chose this workflow or particular aspects of it!
+
+ Our team uses a Github repository that congregates all the work done for each group's tasks. The link for this repository is https://github.com/csc301-fall-2019/team-project-chalmer-s-cards
+ 
+ Each group also works on their own branches of the original code. Member Alex Quach will be responsible for merging the branches as necessary.
+ 
+ All the commits that a user make will have the following format:
+ 1) Description of what changed in the code.
+ 2) The purpose of updating this code.
+ 3) What files were affected specifically.
+ 4) What is there to be done after this commit.
+
+ Our deployment process will start by ensuring that each group will have their model ready to be implemented. One model may be used to build a framework around it. This framework will use the detection the model provides and outputs the number of people going in and out of the input feed. We will then use this framework to build a local visualization of the input feed and the live counter for it.
+
+  We feel the majority of the work for this deliverable comes from the functionality of our detection and thus most of our time will be used on the logic itself. Therefore, our deployment tool will consist of a local machine such as our laptops to show a working feed and counter. In the future (not for this deliverable) we might use Heroku to deploy web pages showing the functionality of each model using the same input feed and explaining the pros and cons of each.
  
 ## Product
 
