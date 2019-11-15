@@ -6,4 +6,4 @@
 The groups are as follow:  
 * Group 1: Brian, Saim, Rooney
 * Group 2: Frederick, Alex, Jimmy, Zuhab  
-In total, there will be two - three models completed by these two groups for deliverable 2
+In total, there will be two/three models completed by these two groups for deliverable 2
