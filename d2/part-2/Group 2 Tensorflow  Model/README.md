@@ -5,4 +5,8 @@
 
  Specifically, we tested multiple models, and found that the mobile ver 2. model was best fitted for this project, as it was accurate and quick, even on my slower laptop. Additionally we put together a quick fps counter to showcase this. 
 
-## NOTE: Only one model is here, but we did test others as well.
+## NOTE: Only one model is here, but we did test others as well. Also tried using YOLO (You only look once), but this was extremely GPU intensive.
+
+# Dependencies:
+- Opencv (used pip install opencv-python on linux)
+- Tensorflow (used pip install pip install tensorflow)
