@@ -62,8 +62,10 @@ We as a team worked well without them in the first place.
 
 Going into the next iteration, our main insights are:
 
- * 2 - 4 items
- * Short (no more than one short paragraph per item)
- * High-level concepts that should guide your work for the next iteration.
- * These concepts should help you decide on where to focus your efforts.
- * Can be related to product and/or process.
+ 1) That the code we are committing is a lot less than expected. We realize that the bulk of this project is too singular to be divided up among too many people and thus larger groups should be made for larger tasks. This is so we have better productivity as for example one person implementing one function and another person implementing another function is unfeasibally small and two people implementing their own models is too much work for one person. Hence we are taking into practice paired-programming where two or people pool their efforts into completing code together to avoid excess intersections.
+
+ 2) In addition to insight 1), we should not focus too much on where each model for detection came from. For example, OpenCV has many already existing models to choose from and attempting to implement models from varying sources is uneccessary as one source can supply many kinds of models. With this, making our own model is also unfeasible compared to free models available online that are much more efficient and accurate than what we can create in this time frame. 
+
+ 3) Our next big milestone will be to create better interfaces for our models because the models themselves are relatively simple to implement. This is because we currently do not have a stable way of displaying the models and thus are not stand-alone. These interfaces will include where our input will come from (the hardware) and how our input will be displayed (front-end website). Connecting these to our model could be hard and we will need to allocate significant time to this as well. 
+
+ 4) Now seeing the limits of the models demonstrated to our partner, we know there are many variables impacting our results that we need to minimize. These include lighting, camera orientation, and skin color. We will from now on need to either code our own way of dealing with these variables through code or solutions that are simple to execute in real life.
