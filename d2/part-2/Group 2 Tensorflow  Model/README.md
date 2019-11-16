@@ -1,4 +1,6 @@
 ### Group 2 Model Details
+ Credit to medium user, https://medium.com/@madhawavidanapathirana for providing an extremely intuitive explanation to object detection.
+
  Python Skeleton provided by : https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision-part-2-c7eda27115c6
 
   Tensorflow Model provided by : https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models-coco-models
