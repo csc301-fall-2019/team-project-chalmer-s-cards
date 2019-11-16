@@ -10,3 +10,7 @@
 # Dependencies:
 - Opencv (used pip install opencv-python on linux)
 - Tensorflow (used pip install pip install tensorflow)
+
+# To run:
+1. Install dependencies as stated above.
+2. Run the python script (type 'python3 tensorflow-human-detection.py'). Uses webcam. Press q to quit program.
