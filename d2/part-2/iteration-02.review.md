@@ -7,7 +7,7 @@
 
 ## Process - Reflection
 
-After working through the project and doing a review meeting, it was found that many of our more optimistic team decisions (like using artifacts to keep track of AGILE meetings) turned out to be either too much work for the team or not helpful with the process of developing our product.  We also had many process decisions that turned out to be much more helpful and less tedious than expected.  Our issues and the impact of each decision we made before developing our product are discussed below
+After working through the project and doing a review meeting, it was found that many of our more optimistic team decisions (like using artifacts to keep track of AGILE meetings) turned out to be either too much work for the team or not helpful with the process of developing our product.  We also had many process decisions that turned out to be much more helpful and less tedious than expected.  Our issues and the impact of each decision we made before developing our product are discussed below.  Additionally, our two working models so far are Group 1's YOLO model and Group 2's tensorflow model.  Each model is in their respective folders under the D2 page.
 
 #### Decisions that turned out well
 1) Weekly meetings with our project partner  
