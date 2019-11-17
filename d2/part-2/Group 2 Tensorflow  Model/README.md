@@ -12,6 +12,7 @@
 # Dependencies:
 - Opencv (used pip install opencv-python on linux)
 - Tensorflow (used pip install pip install tensorflow)
+- Numpy (used pip install numpy)
 
 # To run:
 1. Install dependencies as stated above.
