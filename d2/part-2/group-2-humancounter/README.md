@@ -4,6 +4,11 @@
 [this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
 [this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
 
+
+## Demo
+note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections. 
+![demo](new_test.gif)
+
 ## Instructions (assuming python 3 is installed)
 clone the repo:
 `git clone https://github.com/csc301-fall-2019/team-project-chalmer-s-cards.git`
@@ -52,19 +57,19 @@ Other optional flags:
 This program detects and tracks human from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space. 
 
 The program has 3 states.
-*Wating*
+***Wating***
 When there are no existing objects and not detecting, the program is simply in the waiting state, not doing computations. 
   
-*Detecting: *
+***Detecting:***
 When the frame number is a multiple of the `skip-frames` parameters, the program detects human only, using MobileNet. 
 
-*Tracking:* 
+***Tracking:***
 When there are existing obejcts, the program uses centroids for tracking. After detecting the object and determining a bounding box, it finds the centroid of the bounding box and uses the coordinates of it for tracking. We are currently using the simple centroid tracking module implemented by the [pyimagesearch blog](www.pyimagesearch.com).  
 
-Algorithm for centroid tracking:  
+***Algorithm for centroid tracking:***
 After determining bounding boxes, it calculates the centroid for each box. It then calculates the Euclidean distance between every pair of centroids. The assumption is that pairs with the smallest Euclidean distances must be the same obejct. For every existing centroid, it assigns its object ID to its 1 nearest neighbor. If there is any centroid that is 1) not an existing object, and 2) not a 1 nearest neighbor to any existing centroid, then it will be registered as a new object and added to the list of existing centroids. 
 
-![centroid tracking gif](https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/people-counting/opencv_people_counter_centroid_tracking.gif)
+![centroid tracking gif](https://s3-us-west-2.amazonaws.com/static.pyimagesearch.com/people-counting/opencv_people_counter_centroid_tracking.gif) ([credit](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/))
 
 It works fairly well when the data is not noisy. For example, simple lightning condition (no shadow) and movements (less people, straighforward movements). 
 
@@ -72,7 +77,3 @@ It works fairly well when the data is not noisy. For example, simple lightning c
 It uses a combination of walking direction and position to determine if a centroid has entered or left a space. Essentially, when the direction is toward the exit of a space and the position of the centroid is on the outside of the exit, then the centroid is considered as "left". Similarly, the the direction is the opposite of the exit of a space and the position of the centroid is on the inside of the exit, then the cnetroid is considered as "left". 
 
 To save computation and achieve a higher processing FPS (frames per second), it counts every object once, when they are in frame. It can made the program more prone to errors when the movements get complicated. For example, when a person corsses the exit but re-enters while still in frame, the program will not capture the re-enter as it has counted the person. 
-
-## Demo
-note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections. 
-![demo]()
