@@ -1,8 +1,8 @@
 #### This program should be tested on a laptop with a webcam
 
 ## Credits 
-https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/
-https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/
+![this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
+![this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
