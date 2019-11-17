@@ -1,8 +1,8 @@
 #### This program should be tested on a laptop with a webcam
 
 ## Credits 
-![this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
-![this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
+[this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
+[this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
@@ -17,22 +17,30 @@ source ./.venv/bin/activate
 go the group 2 directory:
 ```cd team-project-chalmer-s-cards/d2/part-2/group-2-humancounter```
 
-
 Download dependencies:  
-```pip install -requirement requirements` or alternatively `pip install dlib imutils numpy opencv-python scipy```
+```pip install -requirement requirements``` or alternatively ```pip install dlib imutils numpy opencv-python scipy```
 
 
-run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop):   
-```python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel```
+run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop):
+```
+python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt 
+--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
+```
+
+To save the output video, add the --output flag:    
+```
+python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
+--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
+--output <your_output_video.avi>
+```
 
 
-To save the output video, add the `--output` flag:    
-```python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --output <your_output_video.avi>```
-
-
-To use a video file instead of your webcam, add the `--input` flag, it supports .MOV, .mp4 and .avi:  
-```python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input <you_input_video.avi> --output <your_output_video.avi>```
-
+To use a video file instead of your webcam, add the `--input` flag, it supports .MOV, .mp4 and .avi:
+```
+python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model \
+mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
+--input <you_input_video.avi> --output <your_output_video.avi>
+```
 
 Other optional flags:  
 `--confidence` or `-c`: default=0.5, float, minimum confidence level for detection  
