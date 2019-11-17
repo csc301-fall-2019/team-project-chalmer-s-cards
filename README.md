@@ -9,3 +9,5 @@ The groups are as follow:
 In total, there will be two/three models completed by these two groups for deliverable 2
 
 ### Working product demoed to the partner is under d2/part-2/group2-human-counter
+
+### README.md for part-2 of d2 is under d2/part-2 
