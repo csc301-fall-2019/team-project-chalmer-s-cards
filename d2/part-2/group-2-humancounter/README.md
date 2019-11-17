@@ -1,4 +1,4 @@
-##To test it with live webcam, please make sure your laptio has one
+#### This program should be tested on a laptop with a webcam
 
 ## Credits 
 https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/
