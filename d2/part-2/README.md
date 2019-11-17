@@ -11,12 +11,12 @@
 
 ## Instructions
 #### Specific instructions for the groups: 
-* For group2: [link to group2 readme]
+* For group1: [link to group1 readme](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/master/d2/part-2/group-2-humancounter/README.md)
 * For group 2: [link to group1 readme](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/yolo/d2/part-2/Group%202%20Tensorflow%20%20Model/README.md)
 
 
 * At the moment, to access the application as an end-user, all the end-user needs is access to the github page where the model is located.  The end-user then needs to download the repo and run the python scripts belonging to each individual model (in a virtual python environment) to get the model up and running.  This will probably require some setup from our team as it does get quite technical but after the model is set up, all the user has to do is simply run the scripts each time they want to have the live counter running.  They then can simply point the camera to the area they want to watch, and it should count people.
 * Since our product is not the "typical application", the user does not need any "pre-created" accounts other than a possible github account so they have access to our repo where the models are located.
-* To use the feature of counting people above, the end-user simply needs to run the python script on their machine, whether it be a laptop or raspberry pi camera, and point the camera/webcam (if they are using one) in the direction where people will be coming in and out.  The model will then simply update a counter and it will be displayed to the end-user.  The end-user seeing a live update of a people counter on screen is the end-user "using" our application.
+* To use the feature of counting people above, the end-user simply needs to install the dependencies and run the python script on their machine, following the specific instrcutions in the README files from above ([group1](), [group2](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/yolo/d2/part-2/Group%202%20Tensorflow%20%20Model/README.md), and point the camera/webcam (if they are using one) in the direction where people will be coming in and out.  The model will then simply update a counter and it will be displayed to the end-user.  The end-user seeing a live update of a people counter on screen is the end-user "using" our application.
 
 
