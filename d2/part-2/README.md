@@ -1,5 +1,14 @@
 # Chalmers Vision - Team 700 IQ
 
+## Credits
+**Credits from group 1:**  [this blog post from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/), [this blog post from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/) 
+
+
+**Credits from group 2**:  
+Credit to medium user, https://medium.com/@madhawavidanapathirana for providing an extremely intuitive explanation to object detection.
+Python Skeleton provided by : https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision-part-2-c7eda27115c6
+Tensorflow Model provided by : https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models-coco-models
+
 ## Description 
 * Our application is a people counter that counts the number of people coming in and out of a shelter using a camera and a custom vision model that detects / tracks human bodies.  Its value from an end-user's perspective is it allows for a live update to the number of people inside a homeless shelter without the requirement of someone being there to physically count people coming in and out.  It automates the process of counting people coming in and out of homeless shelters.
 * The problem we are trying to solve with this application is making sure homeless people in the city have somewhere to sleep on a cold day.  Each shelter has a fire occupancy count and when that count is hit, the shelter must refer the person to another shelter that has space.  The current system in place is very slow at keeping the count updated and accurate. Sometimes, shelters might refer a person to another shelter that is already full.  With our application, we want to make sure that each shelter has a live, quick and accurate count of the number of people in the shelter, so if needed, each shelther can refer a person to a shelter that actually has room for them.  This ensures everyone will have a place to sleep.
