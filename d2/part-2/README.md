@@ -21,7 +21,7 @@ Tensorflow Model provided by : https://github.com/tensorflow/models/blob/master/
 ## Instructions
 #### Specific instructions for the groups: 
 * For group1: [link to group1 readme](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/master/d2/part-2/group-1-humancounter/README.md)
-* For group 2: [link to group2 readme](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/yolo/d2/part-2/Group%202%20Tensorflow%20%20Model/README.md)
+* For group 2: [link to group2 readme](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/yolo/d2/part-2/Group%202%20Tensorflow%20%20Model/README.md) (This is the working product demoed to our nonprofit partner)
 
 
 * At the moment, to access the application as an end-user, all the end-user needs is access to the github page where the model is located.  The end-user then needs to download the repo and run the python scripts belonging to each individual model (in a virtual python environment) to get the model up and running.  This will probably require some setup from our team as it does get quite technical but after the model is set up, all the user has to do is simply run the scripts each time they want to have the live counter running.  They then can simply point the camera to the area they want to watch, and it should count people.
