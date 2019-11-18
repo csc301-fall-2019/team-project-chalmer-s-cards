@@ -78,5 +78,5 @@ It uses a combination of walking direction and position to determine if a centro
 
 To save computation and achieve a higher processing FPS (frames per second), it counts every object once, when they are in frame. It can made the program more prone to errors when the movements get complicated. For example, when a person corsses the exit but re-enters while still in frame, the program will not capture the re-enter as it has counted the person. 
 
-## Previous Model - does not include counting capabilities
-Before we created an implementation using OpenCV and yolo, we used pure openCV to do face recognition. This is another implementation we are considering. The product and the readme are included in the folder https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/tree/master/d2/part-2/group-1-humancounter/pureOpenCV. 
+## OpenCV - just face recognition
+Before we created people-counting capabilities, we tried using face recognition package. But we realized that it was unecessarily computationally expensive to do people-counting. We include in in d2 as we do not need it for people-counting at the moment, but we may use it in the future. The product and the readme are included in the folder https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/tree/master/d2/part-2/group-1-humancounter/pureOpenCV. 
