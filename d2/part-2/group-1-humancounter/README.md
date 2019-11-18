@@ -77,3 +77,6 @@ It works fairly well when the data is not noisy. For example, simple lightning c
 It uses a combination of walking direction and position to determine if a centroid has entered or left a space. Essentially, when the direction is toward the exit of a space and the position of the centroid is on the outside of the exit, then the centroid is considered as "left". Similarly, the the direction is the opposite of the exit of a space and the position of the centroid is on the inside of the exit, then the cnetroid is considered as "left". 
 
 To save computation and achieve a higher processing FPS (frames per second), it counts every object once, when they are in frame. It can made the program more prone to errors when the movements get complicated. For example, when a person corsses the exit but re-enters while still in frame, the program will not capture the re-enter as it has counted the person. 
+
+***Pure OpenCV***
+Before we created an implementation using OpenCV and yolo, we used pure openCV to do face recognition. This is another implementation we are considering. The product and the readme are included in the folder pureOpenCV. 
