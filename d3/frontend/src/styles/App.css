@@ -16,6 +16,16 @@
 	color: white;
 }
 
+.model-page-text {
+	margin: 5px;
+	color: white;
+}
+
+.video {
+	width: 60%;
+	/* min-height: 100vh; */
+	margin: 15px;
+}
 .button-row {
 	padding: 10px 0 10px 0;
 	margin: 20px;

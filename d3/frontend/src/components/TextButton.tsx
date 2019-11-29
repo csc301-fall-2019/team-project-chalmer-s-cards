@@ -43,7 +43,7 @@ export default class TextButton extends React.Component<
 		const className = touched ? "btn touched bg-light" : "btn bg-light";
 
 		if (this.state.redirect) {
-			return <Redirect push to="/model" />;
+			return <Redirect push to={`/${this.props.modelName}`} />;
 		}
 		return (
 			<button

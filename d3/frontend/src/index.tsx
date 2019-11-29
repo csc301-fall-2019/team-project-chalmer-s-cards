@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import "./styles/index.css";
 import App from "./App";
 import ModelScreen from "./screens/ModelScreen";
@@ -11,7 +11,7 @@ const routing = (
 	<Router>
 		<div>
 			<Route exact path="/" component={App} />
-			<Route path="/model" component={ModelScreen} />
+			<Route exact path="/:modelName" component={ModelScreen} />
 		</div>
 	</Router>
 );
