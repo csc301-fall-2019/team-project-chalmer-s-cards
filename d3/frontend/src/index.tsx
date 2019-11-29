@@ -4,6 +4,7 @@ import { Route, Link, BrowserRouter as Router } from "react-router-dom";
 import "./styles/index.css";
 import App from "./App";
 import ModelScreen from "./screens/ModelScreen";
+import "bootstrap/dist/css/bootstrap.min.css";
 import * as serviceWorker from "./serviceWorker";
 
 const routing = (

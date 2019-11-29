@@ -1,0 +1,19 @@
+.btn {
+	padding: 10px 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 15px;
+	height: 100px;
+	width: 100%;
+	opacity: 1;
+	transition: opacity 300ms ease;
+}
+
+.touched {
+	opacity: 0.5;
+}
+
+.button-text {
+	font-size: 35px;
+}
