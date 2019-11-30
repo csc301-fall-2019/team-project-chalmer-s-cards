@@ -10,21 +10,20 @@ class App extends React.Component<{} & RouteProps, {}> {
 				<div className="jumbotron bg-light jumbotron-style">
 					<h1>Chalmer's Vision</h1>
 					<p>A foray into computer vision for greater purpose.</p>
+					<img className="logo" alt="/chalmers_logo.png" src="/chalmers_logo.png"/>
 				</div>
 				<div className="row text">
 					<div className="col-lg-12">
 						<p className="text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius
-							morbi enim nunc faucibus a pellentesque sit amet. A iaculis at
-							erat pellentesque adipiscing commodo elit at imperdiet. Nam
-							aliquam sem et tortor. At imperdiet dui accumsan sit amet nulla
-							facilisi morbi. Elit sed vulputate mi sit amet mauris. A lacus
-							vestibulum sed arcu non odio euismod. Nibh nisl condimentum id
-							venenatis a condimentum vitae sapien pellentesque. Diam volutpat
-							commodo sed egestas egestas fringilla. Etiam dignissim diam quis
-							enim lobortis. Imperdiet sed euismod nisi porta lorem. Vulputate
-							sapien nec sagittis aliquam. Laoreet sit amet cursus sit.{" "}
+						Chalmer’s vision is a project facilitated by Zachary Donsky as one of two ways 
+						to improve the functioning of shelters. Part of a shelters requirements is to 
+						always track the occupancy of the building to keep the number of people within 
+						fire code specifications. When a shelter reaches full capacity, clients who 
+						unfortunately seek refuge in these shelters need to be deferred to another. 
+						This project looks to aid this process by providing a simple solution; a 
+						counter that streamlines the process of counting the flow of people in a 
+						building. This information is then readily available to other shelters so 
+						clients can go to vacant shelters quickly.{" "}
 						</p>
 					</div>
 				</div>
