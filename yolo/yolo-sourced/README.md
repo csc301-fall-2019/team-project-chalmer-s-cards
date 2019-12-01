@@ -4,7 +4,9 @@
   
   The YOLO model although incredibly accurate takes a tremendous amount of power to run. Most of our computers could only handle about 1-2 frames with detection on live video. This resulted in the inability to proceed with YOLO as the model itself requires to much computational power to run on a Raspberry Pi which is what we are limited to for installing into shelters.
   
-  The video titled yolo_test_jimmy.avi shows the performance of YOLO on Jimmy's laptop. Moreover, YOLO requires more space than what is comfortable for us to use as the folder itself alone is around 260MB. The shelters that would be using this technology also may not have internet access to be able to outsource the computation to a server and the budget at the moment does not allow for more powerful hardware. Hence, we did not choose to proceed with YOLO and hope that if this project becomes more elaborate than we may choose to use YOLO in the future.
+  The video titled yolo_test_jimmy.avi shows the performance of YOLO on Jimmy's laptop. The shelters that would be using this technology also may not have internet access to be able to outsource the computation to a server and the budget at the moment does not allow for more powerful hardware. Hence, we did not choose to proceed with YOLO and hope that if this project becomes more elaborate than we may choose to use YOLO in the future.
+  
+  Also, note that the YOLO model was trained on a data set (a file called yolo.h5) that was about 240MB in size. We decided to not commit this to our repository as it is not required to run the program and serves as proof of the performance of the model. If the reader of this so wishes to see this dataset, it is available in the original repository linked to down below in the credits.
 
 # Running YOLO
   Information about running this YOLO such as its dependencies and testing instructions can be found within the deep_sort_yolov3 folder provided by the original creator(s) of the repository we are using.
