@@ -1,13 +1,39 @@
 #### This program should be tested on a laptop with a webcam
 
+## Description
+Our application: Our application is a detects and tracks humans from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space.  From an end-user's perspective, our application will be used for counting the number of people coming in and out of a homeless shelter.  This information can then be used to keep track of the occupancy of a shelter by taking the difference of those two figures.  This will be used to ensure that the number of people in a homeless shelter do not go over the fire occupancy limit.
+
+Context: Part of a homeless shelters requirements is to always keep track of the occupancy of the building to keep the number of people within fire code specifications. When a shelter reaches full capacity, clients who unfortunately seek refuge in these shelters need to be deferred to another which is the problem we are trying to solve with this project.  This project looks to aid the shelter referral process by providing a simple solution; a counter that streamlines the process of counting the flow of people in and out of a building. This information is then readily available to other shelters so clients can be referred to shelters with vacancy quickly.  The objective of this project to ensure everyone has a hot meal and a place to sleep on a cold night.
+
+Value: Currently, there is a system in place that does keep track of the occupancy of homeless shelters, but it is insanely slow and inaccurate.  The aim of our application is to improve upon this system and ensure that occupancy counts are accurate, and real-time, as to ensure that everyone is referred quickly to a free shelter.
+
 ## Credits 
 [this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
-[this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
+[this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/) . 
+
+
+[example tensorflow usage from medium user @@madhawavidanapathirana](https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision-part-2-c7eda27115c6) . 
+
+
+[pretrained models provided by this:](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models-coco-models)
 
 
 ## Demo
-note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections. 
-![demo](new_test.gif)
+MobileNet tracking test: note that this is not an ideal environment.  
+I'm surprised that the program didn't pick up my reflections.
+
+![demo](cvtest.gif)  
+
+
+Comparison between tensorflow framework and Open CV with mobilenet framework.  
+
+Tensorflow mobilenet:  
+
+![tensorflow](tensorflow.gif)  
+
+MobileNet:  
+
+![openCV](opencv.gif)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
@@ -20,15 +46,15 @@ source ./.venv/bin/activate
 ```
 
 go the group 2 directory:
-```cd team-project-chalmer-s-cards/d2/part-2/group-2-humancounter```
+```cd team-project-chalmer-s-cards/d3/occupancyCounter```
 
 Download dependencies:  
-```pip install -requirement requirements``` or alternatively ```pip install dlib imutils numpy opencv-python scipy```
+```pip install -requirement requirements``` or alternatively ```pip install tensorflow dlib imutils numpy opencv-python scipy```
 
 
-run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop):
+run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop. Default object detection framework is with OpenCV. OpenCV requires a prototxt.):
 ```
-python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt 
+python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
 
@@ -47,10 +73,17 @@ mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 --input <you_input_video.avi> --output <your_output_video.avi>
 ```
 
+To use the tensorflow detection framework, add the --detectfw flag:
+```
+python3 people_counter.py --model tfmobilenet/frozen_inference_graph.pb \
+--detectfw tensorflow
+```
+
 Other optional flags:  
 `--confidence` or `-c`: default=0.5, float, minimum confidence level for detection  
 
-`--skip-frames` or `-s`: default=30, int, number of frames to skip between detections. The program will only detect at frame numers that are multiples of `skip-frames`. 
+`--skip-frames` or `-s`: default=30, int, number of frames to skip between detections. The program will only detect at frame numers that are multiples of `skip-frames`.
+`--hieedisplay` or `-hd`: default action=store_true. Normally displays overlay for trackers. If you add this flag(with no arguments) there will be no overlay.
 
 
 ## Introduction
@@ -61,7 +94,7 @@ The program has 3 states.
 When there are no existing objects and not detecting, the program is simply in the waiting state, not doing computations. 
   
 ***Detecting:***
-When the frame number is a multiple of the `skip-frames` parameters, the program detects human only, using MobileNet. 
+When the frame number is a multiple of the `skip-frames` parameters, the program detects human only, using MobileNet with OpenCV or Tensorflow depending on command line input.
 
 ***Tracking:***
 When there are existing obejcts, the program uses centroids for tracking. After detecting the object and determining a bounding box, it finds the centroid of the bounding box and uses the coordinates of it for tracking. We are currently using the simple centroid tracking module implemented by the [pyimagesearch blog](www.pyimagesearch.com).  
