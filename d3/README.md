@@ -9,7 +9,7 @@
 
 ## Demo
 note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections. 
-![demo](new_test.gif)
+![demo](cvtest.gif)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
