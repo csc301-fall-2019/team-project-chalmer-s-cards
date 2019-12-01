@@ -1,5 +1,12 @@
 #### This program should be tested on a laptop with a webcam
 
+## Description
+Our application: Our application is a detects and tracks humans from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space.  From an end-user's perspective, our application will be used for counting the number of people coming in and out of a homeless shelter.  This information can then be used to keep track of the occupancy of a shelter by taking the difference of those two figures.  This will be used to ensure that the number of people in a homeless shelter do not go over the fire occupancy limit.
+
+Context: Part of a homeless shelters requirements is to always keep track of the occupancy of the building to keep the number of people within fire code specifications. When a shelter reaches full capacity, clients who unfortunately seek refuge in these shelters need to be deferred to another which is the problem we are trying to solve with this project.  This project looks to aid the shelter referral process by providing a simple solution; a counter that streamlines the process of counting the flow of people in and out of a building. This information is then readily available to other shelters so clients can be referred to shelters with vacancy quickly.  The objective of this project to ensure everyone has a hot meal and a place to sleep on a cold night.
+
+Value: Currently, there is a system in place that does keep track of the occupancy of homeless shelters, but it is insanely slow and inaccurate.  The aim of our application is to improve upon this system and ensure that occupancy counts are accurate, and real-time, as to ensure that everyone is referred quickly to a free shelter.
+
 ## Credits 
 [this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
 [this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/) . 
