@@ -1,9 +1,9 @@
-# YOUR PRODUCT/TEAM NAME
+# Chalmers Vision - Team 700 IQ
 
-## Iteration XX
+## Iteration 3/4
 
- * Start date: 
- * End date: 
+ * Start date: Friday, November 15, 2019
+ * End date: Sunday, December 1, 2019
 
 ### Changes from you `product.md`
 
