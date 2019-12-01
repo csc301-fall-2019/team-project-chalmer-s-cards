@@ -8,8 +8,11 @@
 
 
 ## Demo
-note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections. 
+OpenCV tracking test: note that this is not an ideal environment, I'm surprised that the program didn't pick up my reflections.
 ![demo](cvtest.gif)
+
+Comparison between tensorflow framework and opencv framework.
+![tensorflow](tensorflow.gif) [openCV](opencv.gif)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
