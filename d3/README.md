@@ -19,19 +19,19 @@ Value: Currently, there is a system in place that does keep track of the occupan
 
 
 ## Demo
-OpenCV tracking test: note that this is not an ideal environment.  
+MobileNet tracking test: note that this is not an ideal environment.  
 I'm surprised that the program didn't pick up my reflections.
 
 ![demo](cvtest.gif)  
 
 
-Comparison between tensorflow framework and opencv framework.  
+Comparison between tensorflow framework and Open CV with mobilenet framework.  
 
-Tensorflow:  
+Tensorflow mobilenet:  
 
 ![tensorflow](tensorflow.gif)  
 
-OpenCV:  
+MobileNet:  
 
 ![openCV](opencv.gif)
 
