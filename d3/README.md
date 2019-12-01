@@ -54,7 +54,7 @@ Download dependencies:
 
 run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop. Default object detection framework is with OpenCV. OpenCV requires a prototxt.):
 ```
-python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt 
+python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
 ```
 
