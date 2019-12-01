@@ -12,7 +12,10 @@ OpenCV tracking test: note that this is not an ideal environment, I'm surprised 
 ![demo](cvtest.gif)
 
 Comparison between tensorflow framework and opencv framework.
-![tensorflow](tensorflow.gif) [openCV](opencv.gif)
+Tensorflow:
+![tensorflow](tensorflow.gif) 
+OpenCV:
+![openCV](opencv.gif)
 
 ## Instructions (assuming python 3 is installed)
 clone the repo:
