@@ -3,6 +3,8 @@
 ## Credits 
 [this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
 [this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/)
+[example tensorflow usage from medium user @@madhawavidanapathirana] (https://medium.com/@madhawavidanapathirana/real-time-human-detection-in-computer-vision-part-2-c7eda27115c6)
+[pretrained models provided by:] (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models-coco-models)
 
 
 ## Demo
@@ -20,13 +22,13 @@ source ./.venv/bin/activate
 ```
 
 go the group 2 directory:
-```cd team-project-chalmer-s-cards/d2/part-2/group-2-humancounter```
+```cd team-project-chalmer-s-cards/d3/occupancyCounter```
 
 Download dependencies:  
-```pip install -requirement requirements``` or alternatively ```pip install dlib imutils numpy opencv-python scipy```
+```pip install -requirement requirements``` or alternatively ```pip install tensorflow dlib imutils numpy opencv-python scipy```
 
 
-run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop):
+run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop. Default object detection framework is with OpenCV. OpenCV requires a prototxt.):
 ```
 python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt 
 --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel
@@ -47,10 +49,17 @@ mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 --input <you_input_video.avi> --output <your_output_video.avi>
 ```
 
+To use the tensorflow detection framework, add the --detectfw flag:
+```
+python3 people_counter.py --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel/frozen_inference_graph.pb \
+--detectfw tensorflow
+```
+
 Other optional flags:  
 `--confidence` or `-c`: default=0.5, float, minimum confidence level for detection  
 
-`--skip-frames` or `-s`: default=30, int, number of frames to skip between detections. The program will only detect at frame numers that are multiples of `skip-frames`. 
+`--skip-frames` or `-s`: default=30, int, number of frames to skip between detections. The program will only detect at frame numers that are multiples of `skip-frames`.
+`--hieedisplay` or `-hd`: default action=store_true. Normally displays overlay for trackers. If you add this flag(with no arguments) there will be no overlay.
 
 
 ## Introduction
@@ -61,7 +70,7 @@ The program has 3 states.
 When there are no existing objects and not detecting, the program is simply in the waiting state, not doing computations. 
   
 ***Detecting:***
-When the frame number is a multiple of the `skip-frames` parameters, the program detects human only, using MobileNet. 
+When the frame number is a multiple of the `skip-frames` parameters, the program detects human only, using MobileNet with OpenCV or Tensorflow depending on command line input.
 
 ***Tracking:***
 When there are existing obejcts, the program uses centroids for tracking. After detecting the object and determining a bounding box, it finds the centroid of the bounding box and uses the coordinates of it for tracking. We are currently using the simple centroid tracking module implemented by the [pyimagesearch blog](www.pyimagesearch.com).  
