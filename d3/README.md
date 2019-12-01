@@ -75,7 +75,7 @@ mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 
 To use the tensorflow detection framework, add the --detectfw flag:
 ```
-python3 people_counter.py --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel/frozen_inference_graph.pb \
+python3 people_counter.py --model tfmobilenet/frozen_inference_graph.pb \
 --detectfw tensorflow
 ```
 
