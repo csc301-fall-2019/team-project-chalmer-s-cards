@@ -85,7 +85,7 @@ Other optional flags:
 `--hieedisplay` or `-hd`: default action=store_true. Normally displays overlay for trackers. If you add this flag(with no arguments) there will be no overlay.
 
 
-## Introduction
+## Algorithm
 This program detects and tracks human from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space. 
 
 The program has 3 states.
