@@ -1,7 +1,7 @@
 '''
 -------------------USAGE-------------------
 OPEN CV FRAMEWORK USAGE
-	To read and write back out to video with display overlayed:
+	To read video file and write back out to video with display overlayed:
 	python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 		--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input <path to input video file> \
 		--output <path to output video.avi>
@@ -11,14 +11,21 @@ OPEN CV FRAMEWORK USAGE
 		--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 		--output <path to output video.avi>
 
+	To read from RTSP stream and write back out to disk with display overlayed: 
+	add -r or --rtsp to above command
+
+
 TENSORFLOW FRAMEWORK USAGE
-	To read and write back out to video with display overlayed:
+	To read video file and write back out to video with display overlayed:
 	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--input  <path to input video file.avi> --output <path to output video.avi>
 
 	To read from webcam and write back out to disk with display overlayed:
 	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--output <path to output video.avi>
+
+	To read from RTSP stream and write back out to disk with display overlayed:
+	add -r or --rtsp to above command
 '''
 from pyimagesearch.centroidtracker import CentroidTracker
 from pyimagesearch.trackableobject import TrackableObject
