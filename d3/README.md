@@ -49,7 +49,7 @@ go the group 2 directory:
 ```cd team-project-chalmer-s-cards/d3/occupancyCounter```
 
 Download dependencies:  
-```pip install -requirement requirements``` or alternatively ```pip install tensorflow dlib imutils numpy opencv-python scipy```
+```pip install -requirement requirement``` or alternatively ```pip install tensorflow dlib imutils numpy opencv-python scipy```
 
 
 run `people_counter.py` with the required arguments (this step will open the default webcam on your laptop. Default object detection framework is with OpenCV. OpenCV requires a prototxt.):
