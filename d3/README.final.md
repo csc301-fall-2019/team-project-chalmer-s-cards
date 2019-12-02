@@ -39,7 +39,8 @@ When IP camera video streams are not available, which could very likely be the c
 Our software don't depend on a single pre-trained model. Client can select different models (caffemodel for OpenCV framework and protobuf for Tensorflow) and have our software utilize.  
 It also supports two object detection frameworks: client can choose between using OpenCV to perform a forward pass on the model and using Tensorflow. This gives client better flexibility when access to appropriate models is limited.  
 
-
+***Performance***  
+With the default models our software uses, it is lightweight and fast. MobileNet is designed to be run on resource-limited mobile devices. In our expeirence, when processing RTSP streams, our model yields 29-31+ FPS (which is very close to being sufficient for real-time processing) when using the OpenCV for detection and 15+ FPS when using Tensorflow for detection. 
 
 ## Demo
 MobileNet tracking test: note that this is not an ideal environment.  
