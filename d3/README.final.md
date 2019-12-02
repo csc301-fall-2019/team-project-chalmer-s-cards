@@ -1,11 +1,3 @@
-
-## Description
-Our application: Our application is a detects and tracks humans from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space.  From an end-user's perspective, our application will be used for counting the number of people coming in and out of a homeless shelter.  This information can then be used to keep track of the occupancy of a shelter by taking the difference of those two figures.  This will be used to ensure that the number of people in a homeless shelter do not go over the fire occupancy limit.
-
-Context: Part of a homeless shelters requirements is to always keep track of the occupancy of the building to keep the number of people within fire code specifications. When a shelter reaches full capacity, clients who unfortunately seek refuge in these shelters need to be deferred to another which is the problem we are trying to solve with this project.  This project looks to aid the shelter referral process by providing a simple solution; a counter that streamlines the process of counting the flow of people in and out of a building. This information is then readily available to other shelters so clients can be referred to shelters with vacancy quickly.  The objective of this project to ensure everyone has a hot meal and a place to sleep on a cold night.
-
-Value: Currently, there is a system in place that does keep track of the occupancy of homeless shelters, but it is insanely slow and inaccurate.  The aim of our application is to improve upon this system and ensure that occupancy counts are accurate, and real-time, as to ensure that everyone is referred quickly to a free shelter.
-
 ## Credits 
 [this amazing blog from pysource](https://pysource.com/2019/07/08/yolo-real-time-detection-on-cpu/) . 
 [this amazing blog from pyimagesearch](https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/) . 
@@ -15,6 +7,38 @@ Value: Currently, there is a system in place that does keep track of the occupan
 
 
 [pretrained models provided by this:](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md#coco-trained-models-coco-models)
+
+
+## Description
+Our application: Our application is a detects and tracks humans from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space.  From an end-user's perspective, our application will be used for counting the number of people coming in and out of a homeless shelter.  This information can then be used to keep track of the occupancy of a shelter by taking the difference of those two figures.  This will be used to ensure that the number of people in a homeless shelter do not go over the fire occupancy limit.
+
+Context: Part of a homeless shelters requirements is to always keep track of the occupancy of the building to keep the number of people within fire code specifications. When a shelter reaches full capacity, clients who unfortunately seek refuge in these shelters need to be deferred to another which is the problem we are trying to solve with this project.  This project looks to aid the shelter referral process by providing a simple solution; a counter that streamlines the process of counting the flow of people in and out of a building. This information is then readily available to other shelters so clients can be referred to shelters with vacancy quickly.  The objective of this project to ensure everyone has a hot meal and a place to sleep on a cold night.
+
+Value: Currently, there is a system in place that does keep track of the occupancy of homeless shelters, but it is insanely slow and inaccurate.  The aim of our application is to improve upon this system and ensure that occupancy counts are accurate, and real-time, as to ensure that everyone is referred quickly to a free shelter.
+
+## Key Features
+***Highly parametrized***  
+This command-line software has parametrized options:  
+object detection framework (OpenCV and Tensorflow)  
+pre-trained model and prototxt  
+input source: laptop webcam, Real-Time Streaming Protocol and video file,  
+output file   
+confidece treshold for detection  
+skip-frame for detection frequency  
+overlay display: on/off.  
+
+***Support of Real-Time Streaming Protocol***  
+Our software supports an RTSP stream produced by an IP camera falshed with DaFang Hacks. This allows multiple instances to run and process from the same video stream at the same time; since the detection frameworks are parametrized, these running instances can run different frameworks. For example, this enables clients to have multiple machines monitoring the same homeless shelter.   
+
+Depending on the feature of the IP camera, the support of RTSP allows clients to process video streams produced by different configurations of the IP camera. For example, client can configure their IP camera to produce infrared video streams and process it with our software. 
+
+***Support of video file input***   
+When IP camera video streams are not available, which could very likely be the case in many homeless shelters, our software can take a video file (.MOV, .mp4 or .avi) as its input and process as usual. This can also provide valuable insights by running on footage generated prior to the installation of our software to study the effectiveness and progress. 
+
+***Customizable models and detection frameworks***  
+Our software don't depend on a single pre-trained model. Client can select different models (caffemodel for OpenCV framework and protobuf for Tensorflow) and have our software utilize.  
+It also supports two object detection frameworks: client can choose between using OpenCV to perform a forward pass on the model and using Tensorflow. This gives client better flexibility when access to appropriate models is limited.  
+
 
 
 ## Demo
@@ -85,7 +109,7 @@ Other optional flags:
 `--hieedisplay` or `-hd`: default action=store_true. Normally displays overlay for trackers. If you add this flag(with no arguments) there will be no overlay.
 
 
-## Algorithm
+## Program Workflow
 This program detects and tracks human from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space. 
 
 The program has 3 states.
