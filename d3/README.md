@@ -1,4 +1,3 @@
-#### This program should be tested on a laptop with a webcam
 
 ## Description
 Our application: Our application is a detects and tracks humans from a live or recorded video feed, and keeps track of a counter for the number of times people enter and leave a space.  From an end-user's perspective, our application will be used for counting the number of people coming in and out of a homeless shelter.  This information can then be used to keep track of the occupancy of a shelter by taking the difference of those two figures.  This will be used to ensure that the number of people in a homeless shelter do not go over the fire occupancy limit.
