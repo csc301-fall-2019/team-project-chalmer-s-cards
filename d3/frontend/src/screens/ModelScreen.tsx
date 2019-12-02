@@ -16,19 +16,32 @@ class ModelScreen extends React.Component<ModelScreenProps & RouteProps, {}> {
 		return (
 			<div className="container-fluid bg-dark App-background">
 				<div className="jumbotron bg-light jumbotron-style">
-					<h1>{info.name}</h1>
+					<div className="row">
+						<div className="col-xs-offset-2 col-xs-8">
+							<h1>{info.name}</h1>
+						</div>
+						<div className="col-xs-2">
+							<img
+								className="logo-model-page"
+								alt="/chalmers_logo.png"
+								src="/chalmers_logo.png"
+							/>
+						</div>
+					</div>
 				</div>
 				<div className="row">
-					<div className="col-8"></div>
-					<iframe
-						className="video"
-						min-height="100vh"
-						src={info.videoSrc}
-						frameBorder="0"
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowFullScreen
-					></iframe>
-					<div className="col-4">
+					<div className="col-xl-12 text-center">
+						<iframe
+							className="video"
+							src={info.videoSrc}
+							frameBorder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowFullScreen
+						></iframe>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col">
 						<p className="model-page-text">{info.description}</p>
 					</div>
 				</div>

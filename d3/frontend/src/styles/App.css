@@ -17,14 +17,15 @@
 }
 
 .model-page-text {
-	margin: 5px;
+	margin: 15px;
 	color: white;
 }
 
 .video {
-	width: 60%;
-	/* min-height: 100vh; */
+	width: 60vw;
+	height: 34vw;
 	margin: 15px;
+	align-content: center;
 }
 .button-row {
 	padding: 10px 0 10px 0;
@@ -41,5 +42,13 @@
 	position: absolute;
 	top: 10px;
 	right: 30px;
-	width: 200px;
+	width: 15vw;
+}
+
+.logo-model-page {
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 11vw;
 }
