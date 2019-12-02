@@ -1,28 +1,67 @@
 import React from "react";
-import { withRouter, RouteProps } from "react-router-dom";
+import { RouteProps, Redirect } from "react-router-dom";
 import "../styles/App.css";
+import "../styles/TextButton.css";
 import MODEL_INFORMATION from "../constants/ModelInfo";
 
 interface ModelScreenProps {
 	match: any;
 }
 
-interface ModelScreenState {}
+interface ModelScreenState {
+	touched: boolean;
+	redirect: boolean;
+}
 
-class ModelScreen extends React.Component<ModelScreenProps & RouteProps, {}> {
+class ModelScreen extends React.Component<
+	ModelScreenProps & RouteProps,
+	ModelScreenState
+> {
+	state = {
+		touched: false,
+		redirect: false
+	};
+
+	private toggleTouched = () => {
+		this.setState(prevState => ({
+			touched: !prevState.touched
+		}));
+	};
+
+	private onClick = () => {
+		this.setState({ redirect: true });
+	};
+
+	private handleMouseUp = () => {
+		// Handle smooth animation when clicking without holding
+		setTimeout(() => {
+			this.setState({ touched: false });
+		}, 150);
+	};
 	public render() {
 		const modelName = this.props.match.params.modelName;
 		const info = MODEL_INFORMATION[modelName];
+		const logoClasses = this.state.touched
+			? "logo-model-page touched"
+			: "logo-model-page";
+
+		if (this.state.redirect) {
+			return <Redirect push to="/" />;
+		}
+
 		return (
 			<div className="container-fluid bg-dark App-background">
 				<div className="jumbotron bg-light jumbotron-style">
 					<div className="row">
 						<div className="col-xs-offset-2 col-xs-8">
-							<h1>{info.name}</h1>
+							<h1 className="jumbotron-text">{info.name}</h1>
 						</div>
 						<div className="col-xs-2">
 							<img
-								className="logo-model-page"
+								className={logoClasses}
+								onMouseDown={this.toggleTouched}
+								onMouseUp={this.handleMouseUp}
+								onClick={this.onClick}
 								alt="/chalmers_logo.png"
 								src="/chalmers_logo.png"
 							/>

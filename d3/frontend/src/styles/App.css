@@ -12,8 +12,12 @@
 }
 
 .text {
-	margin: 10px calc(20px + 5vmin) 10px calc(20px + 5vmin);
+	margin: 10px 15px 10px 15px;
 	color: white;
+}
+
+.jumbotron-text {
+	margin-left: 10px;
 }
 
 .model-page-text {

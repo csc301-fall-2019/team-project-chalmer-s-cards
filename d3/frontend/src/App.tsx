@@ -10,8 +10,10 @@ class App extends React.Component<{} & RouteProps, {}> {
 				<div className="jumbotron bg-light jumbotron-style">
 					<div className="row">
 						<div className="col-xs-offset-2 col-xs-8">
-							<h1>Chalmer's Vision</h1>
-							<p>Computer vision for greater purpose.</p>
+							<h1 className="jumbotron-text">Chalmer's Vision</h1>
+							<p className="jumbotron-text">
+								Computer vision for greater purpose.
+							</p>
 						</div>
 						<div className="col-xs-2">
 							<img
