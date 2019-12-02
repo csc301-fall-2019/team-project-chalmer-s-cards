@@ -1,7 +1,7 @@
 '''
 -------------------USAGE-------------------
 OPEN CV FRAMEWORK USAGE
-	To read and write back out to video with display overlayed:
+	To read video file and write back out to video with display overlayed:
 	python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 		--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input <path to input video file> \
 		--output <path to output video.avi>
@@ -11,14 +11,21 @@ OPEN CV FRAMEWORK USAGE
 		--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 		--output <path to output video.avi>
 
+	To read from RTSP stream and write back out to disk with display overlayed: 
+	add -r or --rtsp to above command
+
+
 TENSORFLOW FRAMEWORK USAGE
-	To read and write back out to video with display overlayed:
-	python3 people_counter.py --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
+	To read video file and write back out to video with display overlayed:
+	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--input  <path to input video file.avi> --output <path to output video.avi>
 
 	To read from webcam and write back out to disk with display overlayed:
-	python3 people_counter.py --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
+	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--output <path to output video.avi>
+
+	To read from RTSP stream and write back out to disk with display overlayed:
+	add -r or --rtsp to above command
 '''
 from pyimagesearch.centroidtracker import CentroidTracker
 from pyimagesearch.trackableobject import TrackableObject
@@ -32,6 +39,7 @@ import time
 import dlib
 import cv2
 
+rtsp = "rtsp://192.168.8.3:8554/unicast"
 
 # Append tracker methods for each framework.
 def tensorflowAppendTrackers(object_detector, frame, args, trackers):
@@ -116,6 +124,8 @@ ap.add_argument("-f", "--detectfw", type=str, default="opencv",
 	help="detection framework to use.(OpenCV or Tensorflow)")
 ap.add_argument("-hd", "--hidedisplay", action='store_true',
 	help="Hides opencv drawings for centroids, in/vs out.")
+ap.add_argument("-r", "--rtsp", action='store_true',
+	help="uses the Real Time Streaming Protocol (RTSP) as input the video stream")
 args = vars(ap.parse_args())
 
 
@@ -150,8 +160,11 @@ H = None
 
 # if a video path was not supplied, grab a reference to the webcam
 if not args.get("input", False):
+	if not args.get("rtsp", False):
+		vs = VideoStream(src=0).start()
+	else:
+		vs = VideoStream(src=rtsp).start()
 	print("[INFO] starting video stream...")
-	vs = VideoStream(src=0).start()
 	time.sleep(2.0)
 # otherwise, grab a reference to the video file
 else:
