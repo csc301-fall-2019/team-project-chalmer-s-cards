@@ -13,11 +13,11 @@ OPEN CV FRAMEWORK USAGE
 
 TENSORFLOW FRAMEWORK USAGE
 	To read and write back out to video with display overlayed:
-	python3 people_counter.py --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
+	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--input  <path to input video file.avi> --output <path to output video.avi>
 
 	To read from webcam and write back out to disk with display overlayed:
-	python3 people_counter.py --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
+	python3 people_counter.py --detectfw tensorflow --model ssdlite_mobilenet_v2_coco_2018_05_09/frozen_inference_graph.pb \
 	--output <path to output video.avi>
 '''
 from pyimagesearch.centroidtracker import CentroidTracker
