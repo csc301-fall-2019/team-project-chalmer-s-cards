@@ -8,8 +8,13 @@ The groups are as follow:
 * Group 2: Frederick, Alex, Jimmy, Zuhab    
 In total, there will be two/three models completed by these two groups for deliverable 2
 
-### Working product demoed to the partner is under d2/part-2/group2-human-counter
+### D2: Working product demoed to the partner is under d2/part-2/group2-human-counter
+
+### D3: Final working product demoed to Mike and the partner is under d3/occupancyCounter
 
 ### README.md for part-2 of d2 is under d2/part-2 
+
+### Final README
+Please see [d3/README.final.md](https://github.com/csc301-fall-2019/team-project-chalmer-s-cards/blob/master/d3/README.final.md)
 
 ### Our open source LICENSE is provided on the most outer directory under LICENSE
