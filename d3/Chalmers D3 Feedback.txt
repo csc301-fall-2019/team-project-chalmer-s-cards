@@ -1,0 +1,31 @@
+Chalmer's Cards Feedback
+
+FINAL.md
+
+Changes: 85
+- Meets expectations
+
+Handoff: 85
+- Answers every question, detailed!
+
+README.md
+
+Description
+- Very detailed and the description is clear (very easy to understand your product) 
+
+Features: 
+- Good descriptions
+
+Instructions/ Explanation: 85
+- No instructions since you provided demos but the program workflow was very good
+
+Dev. Req: 85
+- Easy to follow
+
+License: 75
+- You should be answering some of the questions that we asked you in this section 
+- i.e. Why did you make this choice, what effect does it have on development and use?
+
+Deployed Product: 85
+- Very cool! It's great to see that your application worked as expected
+- It would have been interesting to see how the system would perform when there are multiple people walking back and forth at once (just out of curiosity!)
