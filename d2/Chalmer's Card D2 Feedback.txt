@@ -1,0 +1,76 @@
+Chalmer's Cards
+
+PLAN.md
+
+Roles: 3
+- Meets expectations
+
+Communication: 3
+- meets expectations
+
+Meetings: 3
+- meets expectations
+
+Coflict Resolution: 4
+- Provided more than just three conflicts
+
+Events:
+- meets expectations
+
+Meetings: 3
+- meets expectations
+
+Deployment: 3
+- meets expectations
+
+Goals & Tasks: 3
+- meets expectations but could be more detailed
+
+Artifacts: 3
+- meets expectations
+
+----------------------------------------------------------------------
+
+REVIEW.md
+
+Process: 2
+
+Good Decisions: 3
+- very thorough!
+
+Bad Decisions: 2/3
+- meets expectations but could be more detailed
+
+Planned Changes: 2
+- Could be more detailed, maybe address some of the issues you mentioned under bad decisions
+
+Product:
+
+Goals Met: 3
+- Instead of references using the goal number, you should mention what each goal is
+- meets expectations
+
+Goals Not Met: 3
+- meets expectations
+
+Product Demo: 3
+- meets expectations
+
+Meeting Highlights: 4
+- very thorough!
+
+--------------------------------------------------------------------------
+
+README.md
+
+Description: 3
+- meets expectations
+
+Features: 3
+- you should be more detailed here - talk about the different models you are using, describe the technique used
+
+Instructions: 3
+- group 1's readme looks great but group 2's readme is lacking details
+
+Deployed App: 3
+- Meets expectations
